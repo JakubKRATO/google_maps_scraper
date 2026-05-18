@@ -1,0 +1,107 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Google Maps CSV Scraper</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='styles.css') }}">
+  </head>
+  <body>
+    <main class="shell">
+      <section class="tool">
+        <div class="intro">
+          <p class="eyebrow">CSV export</p>
+          <h1>Google Maps Scraper</h1>
+          <p>Search a business category and download matching Google Maps listings as a CSV file.</p>
+        </div>
+
+        {% if error %}
+          <div class="error" role="alert">{{ error }}</div>
+        {% endif %}
+
+        <form id="scrape-form" action="{{ url_for('scrape') }}" method="post" data-start-url="{{ url_for('scrape_start') }}">
+          <label>
+            Search query
+            <input
+              name="query"
+              type="text"
+              placeholder="coffee shops"
+              value="{{ form.get('query', '') if form else '' }}"
+              required
+            >
+          </label>
+
+          <label>
+            Location
+            <input
+              name="location"
+              type="text"
+              placeholder="Bratislava"
+              value="{{ form.get('location', '') if form else '' }}"
+            >
+          </label>
+
+          <label>
+            Max results
+            <input
+              name="max_results"
+              type="number"
+              min="1"
+              max="1000"
+              value="{{ form.get('max_results', '500') if form else '500' }}"
+            >
+          </label>
+
+          <label>
+            Batch size
+            <input
+              name="batch_size"
+              type="number"
+              min="1"
+              max="100"
+              value="{{ form.get('batch_size', '50') if form else '50' }}"
+            >
+          </label>
+
+          <div class="switches">
+            <label class="check">
+              <input
+                name="include_emails"
+                type="checkbox"
+                {% if not form or form.get('include_emails') == 'on' %}checked{% endif %}
+              >
+              Find emails from business websites
+            </label>
+
+            <label class="check">
+              <input name="show_browser" type="checkbox" {% if form and form.get('show_browser') == 'on' %}checked{% endif %}>
+              Show browser while scraping
+            </label>
+          </div>
+
+          <button id="start-button" type="submit">Start scraping</button>
+        </form>
+
+        <section id="progress-panel" class="progress-panel" aria-live="polite" hidden>
+          <div class="progress-row">
+            <strong id="progress-status">Queued</strong>
+            <span id="progress-count">0 / 0</span>
+          </div>
+          <div
+            id="progress-track"
+            class="progress-track"
+            role="progressbar"
+            aria-valuemin="0"
+            aria-valuemax="100"
+            aria-valuenow="0"
+          >
+            <div id="progress-bar" class="progress-bar"></div>
+          </div>
+          <p id="progress-message">Waiting to start.</p>
+          <a id="download-link" class="download-link" href="#" hidden>Download CSV</a>
+        </section>
+      </section>
+    </main>
+    <script src="{{ url_for('static', filename='app.js') }}"></script>
+  </body>
+</html>
