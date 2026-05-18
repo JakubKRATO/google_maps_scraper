@@ -4,7 +4,7 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>Google Maps CSV Scraper</title>
-    <link rel="stylesheet" href="{{ url_for('static', filename='styles.css') }}">
+    <link rel="stylesheet" href="{{ url_for('static', filename='styles.css') }}?v=town-batch">
   </head>
   <body>
     <main class="shell">
@@ -12,7 +12,7 @@
         <div class="intro">
           <p class="eyebrow">CSV export</p>
           <h1>Google Maps Scraper</h1>
-          <p>Search a business category and download matching Google Maps listings as a CSV file.</p>
+          <p>Search a business category and download matching Google Maps listings as town-by-town CSV files.</p>
         </div>
 
         {% if error %}
@@ -32,17 +32,17 @@
           </label>
 
           <label>
-            Location
+            Towns
             <input
               name="location"
               type="text"
-              placeholder="Bratislava"
+              placeholder="Bratislava, Trnava, Kosice"
               value="{{ form.get('location', '') if form else '' }}"
             >
           </label>
 
           <label>
-            Max results
+            Max results per town
             <input
               name="max_results"
               type="number"
@@ -98,10 +98,11 @@
             <div id="progress-bar" class="progress-bar"></div>
           </div>
           <p id="progress-message">Waiting to start.</p>
-          <a id="download-link" class="download-link" href="#" hidden>Download CSV</a>
+          <div id="town-results" class="town-results" hidden></div>
+          <a id="download-link" class="download-link" href="#" hidden>Download all CSVs</a>
         </section>
       </section>
     </main>
-    <script src="{{ url_for('static', filename='app.js') }}"></script>
+    <script src="{{ url_for('static', filename='app.js') }}?v=town-batch"></script>
   </body>
 </html>
