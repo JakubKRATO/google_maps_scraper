@@ -28,6 +28,8 @@ Open `http://127.0.0.1:6767`, enter a query such as `coffee shops` and towns suc
 
 The website starts scraping as a background job and streams progress with Socket.IO, with polling kept as a fallback. Each town gets its own CSV link as soon as that town finishes. When the full job finishes, the page also shows one download link for all completed CSVs. If there is more than one town, that combined download is a ZIP file.
 
+Scraped CSVs are also saved locally under `uploads/<town>/<search-query>.csv`, with spaces and special characters converted to underscores. For example, searching `bars` in `Kilkenny` writes `uploads/kilkenny/bars.csv`; searching `coffee shops` writes `uploads/kilkenny/coffee_shops.csv`.
+
 You can also call the CSV endpoint directly:
 
 ```text

@@ -6,6 +6,7 @@ import os
 import re
 import time
 from dataclasses import asdict, replace
+from pathlib import Path
 from threading import Lock
 from typing import Any
 from uuid import uuid4
@@ -22,6 +23,7 @@ app.config["SECRET_KEY"] = os.environ.get("SECRET_KEY", "google-maps-scraper")
 socketio = SocketIO(app, async_mode="threading", cors_allowed_origins="*")
 
 CSV_COLUMNS = ["id", "company_name", "telephone_num", "email", "street", "website"]
+UPLOADS_DIR = Path(__file__).resolve().parent / "uploads"
 JOBS: dict[str, dict[str, Any]] = {}
 JOBS_LOCK = Lock()
 JOB_TTL_SECONDS = 60 * 60
@@ -31,6 +33,10 @@ ACTIVE_STATUSES = {"queued", "running", "starting", "opening", "searching", "col
 def clean_filename(value: str) -> str:
     name = re.sub(r"[^a-zA-Z0-9_-]+", "_", value.strip()).strip("_")
     return name.lower() or "google_maps_results"
+
+
+def query_filename(query: str) -> str:
+    return f"{clean_filename(query)}.csv"
 
 
 def download_path(job_id: str, town_id: str | None = None) -> str:
@@ -55,6 +61,17 @@ def build_csv(rows: list[dict[str, str | int]]) -> str:
     for row in rows:
         writer.writerow(row)
     return buffer.getvalue()
+
+
+def save_target_csv(target: dict[str, str], rows: list[dict[str, str | int]]) -> Path:
+    town_folder = clean_filename(target.get("name", "no_location"))
+    filename = target.get("filename") or "google_maps_results.csv"
+    output_dir = UPLOADS_DIR / town_folder
+    output_dir.mkdir(parents=True, exist_ok=True)
+    output_path = output_dir / filename
+    with output_path.open("w", encoding="utf-8", newline="") as csv_file:
+        csv_file.write(build_csv(rows))
+    return output_path
 
 
 def build_zip(files: list[tuple[str, str]]) -> bytes:
@@ -100,7 +117,7 @@ def build_search_targets(query: str, location: str) -> list[dict[str, str]]:
                 "id": f"{index}-{town_slug}",
                 "name": town_name,
                 "search_text": search_text,
-                "filename": f"{clean_filename(search_text)}.csv",
+                "filename": query_filename(query),
             }
         )
     return targets
@@ -148,6 +165,7 @@ def public_town(job_id: str, town: dict[str, Any]) -> dict[str, Any]:
         "error": town.get("error", ""),
         "download_url": download_path(job_id, str(town.get("id"))) if status == "completed" else "",
         "filename": town.get("filename", ""),
+        "local_path": town.get("local_path", ""),
     }
 
 
@@ -325,21 +343,23 @@ def run_scrape_job(job_id: str, targets: list[dict[str, str]], base_config: Scra
                     )
                     emit_job_progress(job_id, payload)
 
+                output_path = save_target_csv(target, rows)
                 payload = update_job_state(
                     job_id,
                     {
                         "status": "running",
-                        "message": f"{town_name}: Completed with {len(rows)} result(s).",
+                        "message": f"{town_name}: Saved {len(rows)} result(s) to {output_path}.",
                         "current_town": town_name,
                         "current_town_index": index,
                     },
                     town_id,
                     {
                         "status": "completed",
-                        "message": f"Completed with {len(rows)} result(s).",
+                        "message": f"Saved {len(rows)} result(s) to {output_path}.",
                         "scraped": len(rows),
                         "collected": max(collected_count, len(rows)),
                         "rows": rows.copy(),
+                        "local_path": str(output_path),
                     },
                 )
                 emit_job_progress(job_id, payload)
@@ -454,6 +474,7 @@ def scrape() -> Response | str:
         for target in targets:
             scraper = GoogleMapsScraper(config)
             results = [asdict(row) for row in scraper.scrape(target["search_text"])]
+            save_target_csv(target, results)
             files.append((target["filename"], build_csv(results)))
     except ScrapeError as exc:
         return render_template("index.html", error=str(exc), form=request.values)
