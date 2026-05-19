@@ -1,0 +1,110 @@
+id,company_name,telephone_num,email,street,website
+1,Cork Coffee Roasters Cafe,0212410484,info@corkcoffeeroasters.ie,"Central Stores, 85 Ballyhooly Rd, Montenotte, Cork, T23 YD82",http://www.corkcoffeeroasters.ie/
+2,Cafe Moly,0833935458,info@cafemolyroastery.com,"99 Douglas St, Ballintemple, Cork, T12 V582",http://cafemolyroastery.com/
+3,Cork Coffee Roasters,0212290171,info@corkcoffeeroasters.ie,"16 Anglesea St, Ballintemple, Cork, T12 XY00",http://www.corkcoffeeroasters.ie/
+4,Cork Coffee Roasters,0217319158,info@corkcoffeeroasters.ie,"2 Bridge St, Victorian Quarter, Cork",http://www.corkcoffeeroasters.ie/
+5,Three Fools Grand Parade,,,"Grand Parade, Centre, Cork",http://www.threefoolscoffee.ie/
+6,Some Dose Coffee Hanleys,,,"Frankfield Rd, Ballyphehane, Cork",
+7,Coffee Scape,,,"31 Pope's Quay, Shandon, Cork, T23 X30E",https://instagram.com/coffee.scape.cork?igshid=YmMyMTA2M2Y=
+8,Alchemy Coffee and Bookstore,,online@alchemycoffeecork.com,"123 Barrack St, The Lough, Cork, T12 A594",https://alchemycoffeecork.com/
+9,Blue's Café,0868451136,,"4 French Church St, Centre, Cork, T12 AE4X",
+10,Bright Side,,,"23a Washington Street West, Centre, Cork, T12 VKP0",https://www.instagram.com/brightsidecork
+11,The Bookshelf Coffee House,0212392576,user@domain.com,"78 S Mall, Centre, Cork, T12 K7CT",https://www.bookshelfcoffee.com/
+12,Cork Coffee Roasters,0214678010,info@corkcoffeeroasters.ie,"2 French Church St, Centre, Cork, T12 E94K",http://www.corkcoffeeroasters.ie/
+13,Dukes Coffee Company,0214905877,,"4 Carey's Ln, Centre, Cork, T12 YY89",http://www.dukes.ie/
+14,Café Gusto,0214254446,info@cafegusto.com,"3 Washington St, Centre, Cork, T12 R9WH",http://www.cafegusto.com/
+15,The Haven Cafe,0852490438,,"Unit 2, Bachelor's Quay, Centre, Cork, T12 C97P",https://m.facebook.com/havencafecoffee/
+16,Barista Coffee,0899758271,,"11 St Patrick's Quay, Victorian Quarter, Cork, T23 D586",https://baristacoffee.ie/
+17,Nectar Coffee,0214274631,,"26 Parnell Pl, Centre, Cork, T12 C5K0",
+18,Sam’s Coffee,,,"St Finbarrs GAA, Neenan Park, Togher, Cork, T12 DC58",https://instagram.com/sams_coffee_?igshid=MTIzZWMxMTBkOA==
+19,SOMA Coffee Company,0212039316,,"23 Tuckey St, Centre, Cork, T12 WD38",http://www.somacoffeecompany.ie/
+20,Badger & Dodo Roastery Outlet,,cork@badgeranddodo.ie,"87 S Mall, Centre, Cork, T12 K5CD",http://badgeranddodo.ie/
+21,Cool Beans Coffee,,,"13a Parnell Pl, Centre, Cork, T12 ED35",
+22,Priory Coffee Co.,,info@priorycoffee.com,"33/34 MacCurtain Street, Victorian Quarter, Cork, T23 DR52",http://www.priorycoffee.com/
+23,Myo Cafe,0838473837,,"34 Pope's Quay, Shandon, Cork, T23 F590",http://myocafe.ie/
+24,Some Dose Coffee Cork Opera House,,,"Cork Opera House, Emmett Pl, Centre, Cork, T12 DW6P",https://www.instagram.com/some_dose/?hl=en
+25,Lab 82 Coffee,0892522240,,"82 Lower Glanmire Rd, Victorian Quarter, Cork, T23 TK20",https://lab82.ie/
+26,Boru Coffee Shop,,,"Brian Boru Brg, Victorian Quarter, Cork",https://www.facebook.com/borucoffeeshop/
+27,Some Dose Coffee Turners Cross,,,"23C Congress Rd, Turners Cross, Cork, T12 TK80",
+28,VELVET,,contact@velvetcork.ie,"4 St Patrick's Quay, Victorian Quarter, Cork, T23 N294",https://www.velvetcork.ie/
+29,Lulu's @ the Lough,,,"Lough Rd, The Lough, Cork, T12 HD66",
+30,Cafe Depeche,0877824902,,"19 Lancaster Quay, Mardyke, Cork, T12 XK40",http://www.cafedepeche.com/
+31,5 Points,0212412168,,"59 MacCurtain Street, Victorian Quarter, Cork, T23 F9DT",https://www.instagram.com/5pointscafecork
+32,Filter Espresso and Brew Bar,,,"Paradise Pl, S Main St, Centre, Cork",
+33,Badger & Dodo Roastery Outlet,,info@badgeranddodo.ie,"11 Barrack St, Cork, T12 T8YV",https://badgeranddodo.ie/
+34,The Lough Café,,,"1b The, Lough Rd, The Lough, Cork, T12 YR99",https://shorturl.at/jsAJ3
+35,Cortado Coffee,0838696999,info@cortado.ie,"The Marina, Ballintemple, Cork, T12 TX2F",https://www.cortado.ie/
+36,The Green Frog Café,0833839098,,"22A Western Rd, Mardyke, Cork, T12 CX94",https://www.facebook.com/The-Green-Frog-Caf%C3%A9-103112328161025/
+37,Izz Cafe,0212290689,info@izz.ie,"13-14 George's Quay, Ballintemple, Cork, T12 EY24",http://www.izz.ie/
+38,Beantown Cafe,0212399400,user@domain.com,"1A Farranlea Park, Model Farm Rd, Cork, T12 NX7P",https://www.beantowncafecork.com/
+39,107 Barrack Street,,,"107 Barrack St, The Lough, Cork, T12 T6H3",https://www.instagram.com/107barrackstreet/
+40,Butter Bubble,0876556064,,"47 Oliver Plunkett St, Centre, Cork, T12 XP97",https://www.butterbubblecork.ie/
+41,Emmaus Café,,,"8 Paul St, Centre, Cork, T12 AYP5",
+42,De Calf Cafe,0212411126,,"Unit 4, The Cornmarket Centre, Corn Market St, Centre, Cork, T12 W6EP",https://www.facebook.com/decalfcafe/
+43,Expresso Cafe,,,"26 MacCurtain Street, Victorian Quarter, Cork, T23 YF57",
+44,Alchemy Coffee Cork at the Marina Market,,online@alchemycoffeecork.com,"Unit 08, Marina Commercial Park, Centre Park Rd, Ballintemple, Cork",https://alchemycoffeecork.com/
+45,Eco on Winthrop,0214273090,,"8 Winthrop St., Centre, Cork, T12 EH1Y",https://www.instagram.com/ecoonwinthrop?igsh=YTU0cGZhd2lrank%3D&utm_source=qr
+46,Filter,0214550050,,"19 George's Quay, Centre, Cork, T12 DK49",
+47,Priory Coffee Co.,,info@priorycoffee.com,"1 N Main St, Centre, Cork, T12 HX58",http://www.priorycoffee.com/
+48,Cafe Jane,0212410668,,"116 Shandon St, Gurranabraher, Cork, T23 YR02",
+49,The Workshop Cork,0212373033,,"Ballygarvan, Lios Cross, Upper Ballygarven, Co. Cork",http://www.facebook.com/theworkshopcork
+50,Box'd! Drive Thru Coffee,,boxddrivethru@gmail.com,"Carrigrohane Rd, Cork, T12 VPPO",https://boxd-coffee.ie/
+51,Box'D! Coffee Company,,boxddrivethru@gmail.com,"Bandon Rd, The Lough, Cork",https://boxd-coffee.ie/
+52,Bean & Leaf,,,"Victoria Cross Rd, Cork",https://beanandleaf.ie/
+53,Bean & Leaf,0214279254,,"29 Grand Parade, Centre, Cork, T12 EP99",http://www.beanandleaf.ie/
+54,fly coffee,0872180622,,"Lapp's Quay, Centre, Cork",
+55,The Hideout Cafe And Art Gallery,,,"Verde House, 2 Wellington Rd, Victorian Quarter, Cork, T23 E9HF",https://hideoutcafe.ie/
+56,Farmgate Cafe,0214278134,info@farmgatecork.ie,"The English Market, Princes St, Centre, Cork, T12 NC8Y",http://farmgatecork.ie/
+57,Dulce Bun House,0212413256,hello@dulcebunhouse.ie,"48 Oliver Plunkett St, Centre, Cork, T12 C6KF",http://www.dulcebunhouse.ie/
+58,Bell's Coffee & Crepes,0851759445,,"3 Old Youghal Rd, Sarsfield's Terrace, The Glen, Cork, T23 WC53",
+59,The Floury Apron,0214878937,theflouryapron@gmail.com,"3 Chapel Lane Row, Ballincollig, Cork, P31 Y324",http://www.theflouryapron.ie/
+60,Good Day Deli,0214322107,user@domain.com,"Located within, Nano Nagle Place, Douglas St, Cork, T12 X70A",https://www.gooddaydeli.ie/
+61,Coffee Central,0214271999,bwalsh@lisney.com,"Unit 27, English Market, Grand Parade, Centre, Cork, T12 V528",http://www.englishmarket.ie/traders/caferestaurant/coffeecentral/
+62,Guji Coffee Bar,,,"8 Paul St, Centre, Cork, T12 AYP5",http://www.guji.ie/
+63,Boname Patisserie,,,"92 N Main St, Centre, Cork, T12 VW52",
+64,Cafe Gusto Lapps Quay,0214224099,info@cafegusto.com,"City Quarter, Lapp's Quay, Centre, Cork, T12 WY42",http://www.cafegusto.com/
+65,Roots UCC,0868270902,,"College Rd, University College, Cork, T12 YF78",https://www.instagram.com/rootsucc/
+66,Naturally Nourished,0214551173,example@mysite.com,"Railway St, Victorian Quarter, Cork",https://naturallynourished.ie/
+67,The Bookshelf at The Elysian,0214311591,user@domain.com,"Unit 5, The Elysian, Eglinton St, Ballintemple, Cork, T12 KTD1",https://www.bookshelfcoffee.com/
+68,Coffee Dock,0214926313,,"2 Old Blackrock Road, Ballintemple, Cork, T12 K3KH",
+69,Good for the Soul,0212416182,user@domain.com,"12, Tus Abhaile, Time Square, Ballincollig, Cork",http://www.goodforthesoul.ie/
+70,Dukes Coffee Company,0214350139,,"The Dr, City Gate, Cork",http://dukes.ie/
+71,Cafe Spresso,0851272896,,"26 MacCurtain Street, Montenotte, Cork, T23 YF57",https://www.facebook.com/Cafe-Spresso-150172818378112/
+72,The Garden Cafe,0872888600,cafe@cctrust.ie,"Assumption Rd, Blackpool, Cork, T23 FDT4",https://www.gardencafecork.com/
+73,The SpitJack,0212390613,cork@thespitjack.com,"34 Washington St, Centre, Cork, T12 RY96",http://www.thespitjack.com/
+74,Mahers Pure Coffee,0214270008,,"25 Oliver Plunkett St, Centre, Cork, T12 KX67",http://www.maherspurecoffee.ie/
+75,115 Cafe & Wine Bar,0214276165,info@oldoak.ie,"115 Oliver Plunkett St, Centre, Cork, T12 EV25",https://115cafe.com/
+76,Sicilian Delights,0838288014,,"Magazine Rd, The Lough, Cork, T12 VK61",https://www.siciliandelightsrestaurant.ie/
+77,Butlers Chocolate Café,0214278866,megan@butlers.ie,"30 Oliver Plunkett St, Centre, Cork, T12 R68V",http://www.butlerschocolates.com/
+78,The Pantry,0214251798,info@pantryireland.ie,"Unit A, Merchants Quay Shopping Centre, 1-5 St Patrick's St, Centre, Cork, T12 X031",https://thepantryofficial.com/
+79,Café Atrium,0214544422,info@cafeatrium.ie,"Mardyke Arena, Mardyke Walk, Mardyke, Cork, T12 N1FK",http://www.cafeatrium.ie/
+80,Caffè Nero,0214274092,,"16-17 Oliver Plunkett St, Centre, Cork, T12 RD79",https://caffenero.com/ie/
+81,COCOA,0871029894,,"8 Winthrop St., Centre, Cork, T12 EH1Y",
+82,The Grumpy Bakers,0861071393,Info@exmple.com,"2 Washington St, Centre, Cork, T12 C677",http://thegrumpybakers.ie/
+83,Red Bean Roastery,0212037000,res.galway@maldronhotels.com,"93 S Mall, Street, Cork, T12 EE72",https://www.maldronhotelsouthmall.com/dining/
+84,Cafeteria Tiramisu,0861211741,,"17 Proby's Quay, The Lough, Cork, T12 NCV4",
+85,Dunnes Stores Cafe,,,"105 St Patrick's St, Centre, Cork, T12 P718",
+86,Sonny's Deli,,info@sonnysdelicork.com,"Marina Villas, 3a Albert Rd, Ballintemple, Cork, T12 AF80",https://sonnysdelicork.clickandcollection.com/
+87,Sensei Coffee & Sushi Cafe,0858627157,senseicorkcafe@gmail.com,"1 Mardyke St, Mardyke, Cork, T12 FE00",https://www.senseicafe.ie/
+88,Fellini,0873473967,,"4 Carey's Ln, Centre, Cork, T12 YY89",
+89,SOMA 2,,,"8B Anglesea St, Ballintemple, Cork, T12 W7TV",https://somacoffeecompany.ie/
+90,3 Little Piggies,0214323836,,"Union Quay, Ballintemple, Cork",https://www.facebook.com/3-Little-Piggies-1775187422695238/
+91,Café Marius,0852250263,,"Unit 4B, Grand Parade, Centre, Cork, T12 V528",
+92,Costa Coffee,0214274438,,"Floor 0, 123 St Patrick's St, Centre, Cork, T12 XVF2",http://www.costaireland.ie/
+93,Starbucks Princes Street,0214278989,StarbuckscustomerIRL@eegroup.ie,"39 Princes St, Centre, Cork, T12 EFK8",http://www.starbucks.ie/
+94,Starbucks Opera Lane,0214274785,StarbuckscustomerIRL@eegroup.ie,"Unit 19, Queen Anne Building, Opera Ln, Cork",https://www.starbucks.ie/
+95,Costa Coffee,0214279744,,"6 Emmett Pl, Centre, Cork, T12 W923",http://www.costaireland.ie/
+96,Cafe Sol,,info@cafesol.ie,"105-107 St Patrick's St, Centre, Cork, T12 P718",https://www.cafesol.ie/
+97,Cafe Oasis,0214902230,,"Dovonan Road, University College, Cork",https://www.facebook.com/cafeoasisucc/
+98,Cameron Bakery,0212413977,cameronbakery@gmail.com,"25 Washington Street West, Centre, Cork, T12 D853",http://www.cameronbakery.com/
+99,Lafayette’s,0214274040,reservations@imperialhotelcork.ie,"76 S Mall, Centre, Cork, T12 A2YT",https://www.imperialhotelcork.com/dining/lafayettes/
+100,Cork & Fork,0214278714,corkandforkoffice@gmail.com,"7 Maylor St, Centre, Cork, T12 EC80",https://corkandfork.ie/
+101,The Castle Blackrock - Neighbourhood Restaurant,0214357911,info@thecastlerestaurant.ie,"Blackrock Castle, Castle Rd, Blackrock, Cork",http://www.castlecafe.ie/
+102,The Webworkhouse,0214273090,info@webworkhouse.com,"8A Winthrop St., Centre, Cork, T12 EE6N",http://www.webworkhouse.com/
+103,Loose Leaf Tea and Coffee,0851921805,crowd@looseleaf.ie,"Fenns Quay, 4 Sheares St, Centre, Cork, T12 VH4F",http://www.looseleaf.ie/
+104,O'Keeffe's Shop,0214502010,,"3 Wellington Rd, St Luke's Cross, Cork, T23 RX54",http://www.okeeffes-shop.ie/
+105,Offbeat Donut Co.,015143100,hello@offbeatdonuts.com,"17 French Church St, Centre, Cork, T12 A2AE",https://offbeatdonuts.com/
+106,Salt Food & Wine,0212390430,bookings@saltcork.ie,"Victoria Rd, Ballintemple, Cork",http://saltcork.ie/
+107,Gloria Jean's Coffees Castle St,,user@domain.com,"7, 8 Castle St, Centre, Cork",https://www.gloriajeanscoffees.com.au/?utm_source=google&utm_medium=organic&utm_campaign=Google%20My%20Business&utm_content=Castle%20St&utm_term=plcid_572287971956368392
+108,Nostalgia Coffee,,,"Mardyke Walk, Mardyke, Cork",
+109,Golden Bites Café,0830465599,,"Washington St, Centre, Cork",

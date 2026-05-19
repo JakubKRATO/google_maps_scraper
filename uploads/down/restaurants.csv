@@ -1,0 +1,121 @@
+id,company_name,telephone_num,email,street,website
+1,The Pantry MacDonagh Junction,0567762765,info@pantryireland.ie,"Unit 3 workhouse square Mac donagh junction shopping centre, Kilkenny, R95 YW82",https://thepantryofficial.com/
+2,Campagne,0567772858,info@campagne.ie,"The Arches, 5 Gas House Ln, Gardens, Kilkenny, R95 X092",https://www.campagne.ie/
+3,Billy Byrnes Gastro Bar & Venue,0567721783,reservations@billybyrnes.com,"39 John Street Upper, Gardens, Kilkenny, R95 K091",https://www.billybyrnes.com/
+4,Ember,0567771888,info@kilkennyhibernianhotel.com,"1 Ormonde St, Gardens, Kilkenny, R95 WTK3",https://www.kilkennyhibernianhotel.com/ember/
+5,La Rivista Restaurant & Market,0567771666,karolryan@gmail.com,"22 Parliament St, Gardens, Kilkenny, R95 FH29",http://larivistamarket.ie/
+6,Statham’s by Pembroke Kilkenny,0567783500,reservations@pembrokekilkenny.com,"11 Patrick St, Gardens, Kilkenny, R95 VNP4",https://www.pembrokekilkenny.com/eat-and-drink
+7,Rive Gauche Kilkenny,0567775604,,"2 The Parade, Gardens, Kilkenny",http://www.rivegauche.ie/
+8,Arán Artisan Bakery & Bistro,0567756297,info@arankilkenny.ie,"8 Barrack St, Pennefatherslot, Kilkenny, R95 YF30",http://www.arankilkenny.ie/
+9,The Fig Tree Restaurant Kilkenny,0567756676,,"20 High St, Gardens, Kilkenny, R95 XW22",http://thefigtreerestaurant.ie/
+10,The Orchard House,0567712636,enquiries@theorchardhouse.ie,"New Orchard Rd, Golf Links Rd, Newtown, Kilkenny, R95 XRC4",http://theorchardhouse.ie/
+11,Petronella,0567761899,info@petronella.ie,"Butter Slip lane, Co. Kilkenny",http://www.petronella.ie/
+12,Aroi Asian Fusion - Kilkenny,0567703644,,"Friary St, Gardens, Kilkenny",https://www.aroi.eu/
+13,Zuni Restaurant & Tapas Bar,0567723999,info@zuni.ie,"26 Patrick St, Gardens, Kilkenny, R95 A897",http://zuni.ie/table
+14,Kyoto Kilkenny,0567762766,,"101-102 High St, Gardens, Kilkenny, R95 VWC2",http://www.kyoto.ie/
+15,Victor's Bar & Restaurant,0567721994,info@clubhousehotel.com,"22 & 23 Lower Patrick St, Gardens, Kilkenny, R95 DX76",http://www.clubhousehotel.com/
+16,Langton's Cillin Hill Restaurant,0567772721,,"Dublin Rd, Leggetsrath East, Kilkenny",
+17,Algarve Grill MS,0852567033,,"Hebron Rd, Pennefatherslot, Kilkenny, R95 NF79",
+18,Langton's Bar and Restaurant,0567765133,reservations@langtons.ie,"68 John Street Lower, Gardens, Kilkenny, R95 XN44",https://www.langtons.ie/dining.html
+19,The Kings Mill Restaurant,0852810161,info@thekingsmill.ie,"Mullins Mill, Garrynamann Lower, Kells, Co. Kilkenny",http://www.thekingsmill.ie/
+20,Namo,0567775558,,"James's St, Gardens, Kilkenny, R95 D922",https://www.namokilkenny.ie/
+21,Matt The Millers Bar & Restaurant,0567761696,info@mattthemillers.com,"1 John Street Lower, Gardens, Kilkenny, R95 PY7D",http://www.mattthemillers.com/
+22,Breathnach's Steak & Ale House,0567756737,breathnachsbar@gmail.com,"23-24 John Street Upper, Gardens, Kilkenny, R95 AXC9",http://www.breathnachs.ie/
+23,Ristorante Rinuccini,0567761575,info@rinuccini.com,"1 The Parade, Gardens, Kilkenny, R95 XKR7",http://www.rinuccini.com/
+24,Left Bank,0567750016,events@leftbank.ie,"1 The Parade, Gardens, Kilkenny",http://www.leftbank.ie/
+25,Cafe La Coco,0567752726,hello@cafelacoco.ie,"4 Lower Patrick St, Gardens, Kilkenny, R95 YV6X",http://www.cafelacoco.ie/
+26,Hibernian Bar,1800946602,info@kilkennyhibernianhotel.com,"2 Ormonde St, Gardens, Kilkenny",http://www.kilkennyhibernianhotel.com/
+27,Butcher Restaurant,0567790655,info@butcherrestaurant.ie,"The Butterslip, St Kieran's St, Gardens, Kilkenny, R95 T3VX",http://www.butcherrestaurant.ie/
+28,Doppio Café & Restaurant,0567738487,Info@doppio.ie,"Unit 5A, Waterford Rd, Loughboy, Kilkenny, R95 W023",http://www.doppio.ie/
+29,Caffé500,0567712029,,"1 High St, Gardens, Kilkenny, R95 VPF6",https://www.facebook.com/profile.php?id=61557004926014
+30,Bovine Kilkenny,,user@domain.com,"4 Ormonde St, Gardens, Kilkenny, R95 P978",http://www.bovine.ie/
+31,Anatolia Cafe & Restaurant,0567765599,,"22/23 Rose Inn St, Gardens, Kilkenny, R95 DD4E",https://anatoliakilkenny.ie/
+32,Italian Connection,0567764225,italianconnection@icloud.com,"38 Parliament St, Gardens, Kilkenny, R95 Y966",https://www.italianconnectionkilkenny.com/
+33,Cleere's Bar & Theatre,0567762573,cleereskilkenny@gmail.com,"28 Parliament St, Gardens, Kilkenny, R95 YR61",http://cleeres.com/
+34,,,,,
+35,Pennyfeather Cafe,0567715298,,"10 High St, Gardens, Kilkenny, R95 Y9TA",https://www.instagram.com/pennyfeathercoffee/?hl=en
+36,"Daniel W. Bollard, Wine & Spirit Merchant",0567761319,,"31 St Kieran's St, Gardens, Kilkenny, R95 HY76",https://twitter.com/bollardsbar?lang=en
+37,The Playwright,0567702775,hello@playwrightbarkilkenny.ie,"39-34 St Kieran's St, Gardens, Kilkenny, R95 EY84",http://playwrightbarkilkenny.ie/
+38,Nore Asian Street Food,0567715541,,"43c John Street Upper, Gardens, Kilkenny, R95 C2WK",http://www.noreasian.ie/
+39,Zuni Restaurant & Boutique Hotel,0567723999,info@zuni.ie,"26 Patrick St, Gardens, Kilkenny, R95 A897",http://www.zuni.ie/
+40,Tynan's Bridge House Bar,0567721291,,"2 John's Bridge, Gardens, Kilkenny, R95 WY88",https://www.facebook.com/TynansBarKilkenny/
+41,Moon Asian Restaurant,0567756116,,"85 John Street Lower, Gardens, Kilkenny, R95 AE26",https://www.moonasian.ie/
+42,Marble City Bar & Tea Rooms,0567761143,,"66 High St, Gardens, Kilkenny, R95 TY24",https://marblecitybar.ie/
+43,Sullivan's Taproom,0567797980,info@sullivanstaproom.com,"15 John Street Lower, Gardens, Kilkenny, R95 H2CE",http://sullivanstaproom.com/
+44,Lanigan's Bar,0567721718,info@lanigans.ie,"29 Rose Inn St, Gardens, Kilkenny",https://www.lanigans.ie/
+45,White Oak Restaurant,0567761018,info@kilfordarms.ie,"John Street Lower, Gardens, Kilkenny",https://www.kilfordarms.ie/dining.html
+46,Scott's Bar & Brasserie Kilkenny,0567760500,,"Castlecomer Rd, Newpark Lower, Kilkenny, R95 KP63",
+47,The Field Bar & Restaurant,0567702763,,"2 High St, Gardens, Kilkenny, R95 W429",https://m.facebook.com/TheFieldBar.Kilkenny/
+48,The Grapevine,0567712956,Booking@grapevinetapsbar.ie,"6 Rose Inn St, Dukesmeadows, Kilkenny, R95 DH59",http://www.grapevinetapasbar.ie/
+49,Lion King Chinese Takeaway & Restaurant,0567722666,,"11 O'loughlin Rd, Leggetsrath West, Kilkenny, R95 N25X",
+50,Rafter's Gastro Pub & Accomodation,0567722970,raftersgastropub@gmail.com,"4 Friary St, Gardens, Kilkenny, R96 VY62",https://www.raftersgastropub.ie/
+51,Smithwick's Experience,0567786377,info@smithwicksexperience.com,"44 Parliament St, Gardens, Kilkenny, R95 VK54",https://www.smithwicksexperience.com/?utm_source=google&utm_medium=organic&utm_campaign=sek_google_my_business&utm_id=Google+My+Business+
+52,Paris Texas Bar and Restaurant,0567761822,,"92 High St, Gardens, Kilkenny, R95 V6TE",https://paristexas.ie/?ad=gm
+53,Kyteler's Inn,0567721064,info@kytelersinn.com,"St Kieran's St, Gardens, Kilkenny",http://www.kytelersinn.com/
+54,Blásta Wood Fired Pizza,0858651112,,"Check our Instagram for location, Deansground, Kilkenny",https://www.instagram.com/blastawoodfiredpizza/
+55,Kafe Katz,0567756658,,"3 Ormonde St, Gardens, Kilkenny, R95 XR28",https://www.facebook.com/kafekatz/
+56,Lana Kilkenny Asian Street Food,0567702666,,"Upper New St, Walkinslough, Kilkenny, R95 VXK7",http://www.lanathai.ie/
+57,Scalini Italian Restaurant & Pizzeria,0567820811,user@domain.com,"St Kieran's St, Gardens, Kilkenny, R95 C448",https://www.scalini.ie/make-a-reservation
+58,An Poc Fada,0567772084,contact@vuyo.me,"20 Rose Inn St, Gardens, Kilkenny, R95 T977",https://fipy.me/an-poc-fada-498351-web
+59,Hole in the Wall,,,"Hole in the Wall, 17 High St, Gardens, Kilkenny, R95 TY30",https://www.holeinthewall.ie/
+60,The National Reptile Zoo,0567761783,info@nrz.ie,"Hebron Business Park, Hebron Rd, Leggetsrath West, Kilkenny",http://www.nrz.ie/
+61,Tower & Castle,0567715476,towerandcastlekilkenny@gmail.com,"60 John Street Upper, Gardens, Kilkenny, R95 W257",http://www.towerandcastle.ie/
+62,Louie's Café & Wine Bar,0567750016,,"3 Patrick St, Gardens, Kilkenny, R95 TC63",http://www.louies.ie/
+63,Arán Deli & Bakery,0567756297,info@arankilkenny.ie,"14 Barrack St, Roachpond, Kilkenny, R95 WR23",http://www.arankilkenny.ie/
+64,Langtons Hotel Kilkenny,0567765133,reservations@langtons.ie,"67-69 John Street Lower, Gardens, Kilkenny, R95 XN44",http://www.langtons.ie/
+65,Jurassic Newpark,0567760537,bookings@jurassicnewpark.com,"Castlecomer Rd, Newpark Lower, Kilkenny",http://www.jurassicnewpark.com/
+66,The Grill & Bar at Lyrath Estate,0567760088,info@lyrath.com,"Lyrath, Co. Kilkenny, R95 F685",http://www.lyrath.com/
+67,Istanbul BBQ House Flaming Great,0567790799,patrick.appleby@orderyoyo.com,"unit 3, Friary St, Gardens, Kilkenny, R95 P383",http://istanbulbbqhouse.ie/
+68,Tābú,0831641967,tabutapasrestaurant@gmail.com,"Thomastown, Co. Kilkenny, R95 EH33",http://www.taburestaurant.ie/
+69,Kilkenny Hibernian Hotel,0567771888,info@kilkennyhibernianhotel.com,"1 Ormonde St, Gardens, Kilkenny, R95 WTK3",https://www.kilkennyhibernianhotel.com/?utm_source=mybusiness&utm_medium=organic
+70,Eddie Rocket's,0567786871,info@eddierockets.ie,"Macdonagh Junction, Kilkenny, R95 T2PH",http://www.eddierockets.ie/
+71,J.B. Burke's Pub,0863158863,hello@jbsbarkilkenny.com,"42 John Street Upper, Gardens, Kilkenny, R95 C2WK",http://www.jbsbarkilkenny.com/
+72,Christy's Bar,0567762359,anthony@christysbar.ie,"34 Upper Patrick St, Deansground, Kilkenny, R95 HK12",https://christysbar.ie/
+73,Kilkenny Café,0567722118,hello@kilkennycafe.ie,"The Castle Yard, The Parade, Gardens, Kilkenny, R95 CAA6",https://kilkennycafe.ie/
+74,Indique Indian Restaurant,0567751938,info@indique.ie,"9 St Kieran's St, Gardens, Kilkenny, R95 HV08",http://www.indique.ie/
+75,The Village Inn,0567763506,,"Walkinslough, Kilkenny, R95 VXK7",https://www.facebook.com/villageinnkilkenny/
+76,ML DORE NOSTALGIA CAFE,0567763374,contact@bizsite.link,"65 High St, Gardens, Kilkenny, R95 TC98",https://oplace.me/nostalgia-cafe-702735-ie
+77,Fragola Cafe,,,"3 William St, Gardens, Kilkenny, R95 XE36",
+78,Yew Restaurant,0567760088,info@lyrath.com,"Dublin Rd, Lyrath, Kilkenny",https://www.lyrath.com/restaurants-bars-kilkenny/yew-restaurant
+79,Dizzy Goat Restaurant,0894070233,dizzygoatfarms@gmail.com,"Dizzy goat Skough, near, Owning, Co. Kilkenny, E32 N832",https://www.dizzygoatrestaurant.ie/
+80,Primo Italian Restaurant,0567772000,info@primorestaurant.ie,"Unit 4, Unit 1, Waterford Rd, Loughboy, Kilkenny",http://www.primorestaurant.ie/
+81,The Sceilp Inn,0567762055,,"Marnellsmeadows, Kilkenny, R95 PH94",https://www.facebook.com/thesceilpinn/
+82,Syd Harkin's Pub,0868663888,sales@thebizlocator.ie,"25 Rose Inn St, Gardens, Kilkenny, R95 VK02",http://bizlocator.ie/listings/syd-harkins-kilkenny/
+83,Kilford Arms Hotel,0567761018,info@kilfordarms.ie,"John Street Upper, Gardens, Kilkenny, R95 YND8",http://www.kilfordarms.ie/
+84,Biddy Early's,0567722689,,"6 John Street Lower, Gardens, Kilkenny, R95 Y728",https://www.instagram.com/biddyskilkenny/
+85,Eskimo & Lam's Asian Cuisine Kilkenny,0567795863,,"2 B, Newpark Shopping Centre, Kilkenny, R95 T9DP",http://www.lams.ie/
+86,Cakeface,0567739971,info@cakeface.ie,"16 Irishtown, Gardens, Kilkenny, R95 DN4T",http://www.cakeface.ie/
+87,Low Lane,,,"45 St Kieran's St, Gardens, Kilkenny, R95 DHC3",
+88,Ryan's Bar,0567762281,arthur@ryanskilkenny.com,"3 Friary St, Gardens, Kilkenny, R95 X932",http://ryanskilkenny.com/
+89,Rothe House & Garden,0567722893,reception@rothehouse.com,"16 Parliament St, Gardens, Kilkenny, R95 P89C",http://rothehouse.com/
+90,Brennan Sisters Takeaway,0568832004,,"Main Street, Freshford Lots, Freshford, Co. Kilkenny, R95 HP23",
+91,The Railway House,0599720676,contact@vuyo.me,"Moneybeg, Muine Bheag, Co. Carlow, R21 W688",https://fipy.me/the-railway-house-970978-ie
+92,Pembroke Hotel Kilkenny,0567783500,reservations@pembrokekilkenny.com,"11 Patrick St, Gardens, Kilkenny, R95 VNP4",https://www.pembrokekilkenny.com/?utm_source=GMB&utm_medium=organic&utm_campaign=GoogleMyBussiness
+93,The Cup,0830993018,,"Unit 5, Block C, Newpark Shopping Centre, Newpark, Kilkenny, R95 NP83",https://www.facebook.com/The-Cup-110967727695065/
+94,Kilkenny House O'Gorman's,0567712825,,"41 John Street Lower, Gardens, Kilkenny, R95 XW14",http://www.kilkennyhouse.ie/
+95,Kilkenny Home Rule Club,0567721399,kilkennyhomeruleclub1894@gmail.com,"3 John's Quay, Gardens, Kilkenny, R95 T382",http://kilkennyhomeruleclub.ie/
+96,Set Theatre,0567721728,set@langtons.ie,"Langton House Hotel, 69 John Street Lower, Gardens, Kilkenny",http://www.set.ie/
+97,The Terrace - outdoor dining,,,"The Bridge, John Street Upper, Gardens, Kilkenny, R95 Y104",
+98,Kilkenny Ormonde Hotel,0567750200,reservations@kilkennyormonde.com,"Ormonde St, Gardens, Kilkenny",https://www.kilkennyormonde.com/
+99,Rocco's Take Away,0567763154,,"2 Walkin St, Walkinslough, Kilkenny, R95 V603",https://www.facebook.com/roccos.takeaway/
+100,St Canice's Cathedral,0567764971,administrator@stcanicescathedral.com,"Coach Rd, Gardens, Kilkenny",https://www.stcanicescathedral.ie/
+101,Hoban Bar and Brasserie,0567750200,reservations@kilkennyormonde.com,"Ormonde St, Gardens, Kilkenny, R95 Y5CX",https://www.kilkennyormonde.com/dining.html
+102,Oriental Ming Court,0567751944,info@alleatapp.com,"27 Parliament St, Gardens, Kilkenny, R95 R127",https://orientalmingcourtchinese.com/menu-oriental-ming-court-r95/
+103,Little Collins CBD Dispensary,0830254395,hempme@littlecollinscbd.com,"49 St Kieran's St, Gardens, Kilkenny, R95 R5FC",http://littlecollinscbd.com/
+104,The Pantry Patisserie,0567762250,,"St Kieran's St, Gardens, Kilkenny",
+105,The Newpark Hotel,0567760500,reception@newparkhotel.com,"Castlecomer Rd, Newpark Lower, Kilkenny, R95 KP63",https://www.newparkhotelkilkenny.com/?utm_source=GMBlisting&utm_medium=organic
+106,Lyrath Estate Hotel,0567760088,info@lyrath.com,"Paulstown Road, Lyrath, Co. Kilkenny, R95 F685",http://www.lyrath.com/
+107,Kilkenny Castle Park,0567704100,kilkennycastleinfo@opw.ie,"Castle Rd, Dukesmeadows, Kilkenny",http://www.kilkennycastle.ie/
+108,Kilkenny River Court Hotel,0567723388,reception@rivercourthotel.com,"The Bridge, John Street Upper, Gardens, Kilkenny, R95 Y104",https://www.rivercourthotel.com/?utm_source=google&utm_medium=organic&utm_campaign=Knowledge_Graph
+109,The Duiske Inn,0599724429,,"Market Square, Lower Main St, Graiguenamanagh, Graiguenamanagh-Tinnahinch, Co. Kilkenny, R95 DH00",
+110,Marble City Grill,0567761592,contact@feedme.ie,"Gardens, Kilkenny, R95 YK5W",https://www.feedme.ie/restaurant-menu?name=marble-city-grill&id=62fe52732279ac2d6544ada8
+111,Amber,0567700805,contact@vuyo.me,"Bennettsbridge, Co. Kilkenny, R95 DPV4",https://fipy.me/amber-restaurant-327943-ie
+112,Egan's Bar & Accommodation,0567751179,,"45-46 John Street Upper, Gardens, Kilkenny, R95 FP98",https://www.facebook.com/EgansKilkenny/
+113,Supermac's & Papa John's Kilkenny High Street,0567775900,contact@supermacs.ie,"24 High St, Gardens, Kilkenny, R95 W0XT",https://supermacs.ie/store/kilkenny-high-street-takeaway-delivery/?utm_source=google&utm_medium=organic&utm_campaign=gbp-listing-kilkenny-high-st
+114,The Hound at Hunter's Yard Mount Juliet Estate,0567773000,ays@mountjuliet.ie,"Mount Juliet Estate, Autograph Collection, Walton's Grove Or Mountjuliet, Thomastown, Co. Kilkenny",https://www.mountjuliet.ie/restaurant-at-hunters-yard-hotel.html?utm_source=mybusinessthehound&utm_medium=organ
+115,Asian Spices Store (Halal shop),0567738122,,"18 Dean St, Gardens, Kilkenny, R95 Y092",https://www.facebook.com/Asian-spices-store-kilkenny-105764494680779/
+116,The Black Abbey,0567721279,,"Gardens, Kilkenny, R95 TCK6",https://dominicans.ie/communities/black-abbey-kilkenny/
+117,Glendine Inn,0567721069,info@glendineinn.com,"Glendine Inn, Castlecomer Rd, Glendine, Kilkenny, R95 VY92",http://www.glendineinn.com/
+118,MacDonagh Junction Shopping Centre,0567789624,,"Hebron Rd, Highhays, Kilkenny",http://www.macdonaghjunction.com/
+119,The Lime Tree Cafe & Restaurant,0564440019,,"The Square, Castlecomer, Co. Kilkenny",http://www.thelimetreecastlecomer.ie/
+120,Kilkenny Activity Centre,0862611567,info@kilkennyactivitycentre.ie,"New Orchard Rd, Newtown, Kilkenny, R95 XRC4",https://www.kilkennyactivitycentre.ie/

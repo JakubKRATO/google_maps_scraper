@@ -1,0 +1,121 @@
+id,company_name,telephone_num,email,street,website
+1,The SpitJack,0212390613,cork@thespitjack.com,"34 Washington St, Centre, Cork, T12 RY96",http://www.thespitjack.com/
+2,Market Lane,0214274710,info@marketlane.ie,"5-6 Oliver Plunkett St, Centre, Cork, T12 T959",http://www.marketlane.ie/
+3,Elbow Lane Brew and Smoke House,0212390479,info@elbowlane.ie,"4 Oliver Plunkett St, Centre, Cork, T12 YH24",http://elbowlane.ie/
+4,Liberty Grill,0214271049,,"32 Washington St, Centre, Cork, T12 T880",http://www.libertygrill.ie/
+5,Greenes Restaurant,0214552279,info@greenesrestaurant.com,"Greenes Restaurant, 48 MacCurtain Street, Victorian Quarter, Cork, T23 F6EK",https://greenesrestaurant.com/?utm_source=googlemybusiness&utm_medium=organic
+6,Orso Kitchen & Bar,0212438000,info@orso.ie,"8 Pembroke St, Centre, Cork, T12 YY90",http://www.orso.ie/
+7,The Glass Curtain,0214518659,manager@theglasscurtain.ie,"Thompson House, MacCurtain Street, Victorian Quarter, Cork",http://theglasscurtain.ie/
+8,Goldie,0212398720,info@goldie.ie,"128 Oliver Plunkett St, Centre, Cork, T12 X5P8",https://goldie.ie/
+9,Cornstore Cork,0214251888,cork@cornstore.com,"41-43, Corn Market St, Centre, Cork, T12 R886",https://cornstore.ie/
+10,The River Club,0214252700,info@theriverclubcork.ie,"Western Rd, The Lough, Cork, T12 X2AH",https://theriverclubcork.ie/?utm_source=google&utm_medium=local&utm_campaign=restaurant-theriverclub
+11,Luigi Malones Cork,0214278877,cork@luigimalones.com,"1-2 Emmett Pl, Centre, Cork, T12 VF43",https://luigimalonescork.com/
+12,Quinlans Seafood Bar Cork,0212418222,,"14 Princes St, Centre, Cork, T12 K2HW",https://seafoodbar.ie/cork
+13,Isaac's Restaurant,0214503805,isaacs@iol.ie,"48 MacCurtain Street, Victorian Quarter, Cork, T23 F6EK",http://www.isaacsrestaurant.ie/
+14,Tony's Bistro,0214270848,,"69 N Main St, Centre, Cork, T12 H61W",https://www.facebook.com/TonysBistro/
+15,Nosta Restaurant,0214949724,nostacork@gmail.com,"4 Marlborough St, Centre, Cork, T12 WN26",https://www.nosta.ie/
+16,Probys Kitchen,0217355630,probyskitchen@gmail.com,"Proby's Quay, The Lough, Cork, T12 YP5F",https://www.probyskitchen.ie/
+17,Paradiso,0214277939,,"16 Lancaster Quay, Mardyke, Cork, T12 AR24",https://paradiso.restaurant/
+18,Son of a Bun,0214508738,info@sonofabun.ie,"29 MacCurtain Street, Victorian Quarter, Cork, T23 NX05",http://www.sonofabun.ie/
+19,Koto,0214274172,info@koto.ie,"6 Carey's Ln, Centre, Cork, T12 FH27",http://www.koto.ie/
+20,Good Day Deli,0214322107,user@domain.com,"Located within, Nano Nagle Place, Douglas St, Cork, T12 X70A",https://www.gooddaydeli.ie/
+21,Gallagher's Cork,0212415635,hello@gallagherscork.ie,"32 MacCurtain Street, Victorian Quarter, Cork, T23 Y07X",https://www.gallagherscork.ie/
+22,Scoozi,0214275077,info@scoozis.ie,"2/5 Winthrop Ave, Centre, Cork",http://www.scoozis.ie/
+23,Cork & Fork,0214278714,corkandforkoffice@gmail.com,"7 Maylor St, Centre, Cork, T12 EC80",https://corkandfork.ie/
+24,Sophie's Rooftop Cork,0212341205,bookdublin@sophies.ie,"Level 6, The Dean Cork, Horgan's Quay, Railway St, Northern Quarter, Cork",https://sophies.ie/
+25,51 Cornmarket,0830102321,reserve51cornmarket@gmail.com,"51 Corn Market St, Centre, Cork, T12 VK88",http://51cornmarket.ie/
+26,Jacobs on the Mall,0214251530,info@jacobsonthemall.com,"30 S Mall, Centre, Cork, T12 NY22",http://www.jacobsonthemall.com/
+27,The Anglers Bar & Restaurant,0212355699,info@theanglers.ie,"Leemount Terrace, Coolymurraghue, Cork",http://www.theanglers.ie/
+28,Dwyers of Cork,0214274189,info@dwyersofcork.ie,"27-28 Washington St, Centre, Cork, T12 WC93",http://www.dwyersofcork.ie/
+29,Cafe Spresso,0851272896,,"26 MacCurtain Street, Montenotte, Cork, T23 YF57",https://www.facebook.com/Cafe-Spresso-150172818378112/
+30,Farmgate Cafe,0214278134,info@farmgatecork.ie,"The English Market, Princes St, Centre, Cork, T12 NC8Y",http://farmgatecork.ie/
+31,Thompsons Cork,0216031111,info@thompsonscork.ie,"Unit D, Thompson House, MacCurtain Street, Victorian Quarter, Cork, T23 RR0C",https://www.thompsonscork.ie/
+32,The Four Liars Bistro,0214288555,,"O'Connell Square, Shandon, Cork, T23 P592",https://www.fourliars.ie/
+33,The Woodford,0214253931,user@domain.com,"20-21 Paul St, Centre, Cork, T12 EK53",http://www.thewoodford.ie/
+34,Paper Boys,,,"Tobin St, Centre, Cork",https://instagram.com/paperboys_cork?igshid=MzRlODBiNWFlZA==
+35,Ichigo Ichie Bistro and Natural Wine,0214279997,ichigoichiecork@gmail.com,"5 Sheares St, Centre, Cork, T12 RY7Y",http://ichigoichie.ie/
+36,Salt Food & Wine,0212390430,bookings@saltcork.ie,"Victoria Rd, Ballintemple, Cork",http://saltcork.ie/
+37,Restaurant 14a,0214276457,,"14A French Church St, Centre, Cork, T12 KVN6",http://www.restaurant14a.ie/
+38,Perrotts Garden Bistro Restaurant,0214845900,enquiries@hayfieldmanor.ie,"Hayfield Manor Hotel, Perrott Ave, College Rd, The Lough, Cork",https://www.hayfieldmanor.ie/dining/perrotts-cork-city-bistro
+39,Izz Cafe,0212290689,info@izz.ie,"13-14 George's Quay, Ballintemple, Cork, T12 EY24",http://www.izz.ie/
+40,Paladar,0212290045,info@paladar.ie,"6 Bridge St, Victorian Quarter, Cork, T23 DP94",https://paladar.ie/
+41,Terre Restaurant,0214219053,info@terre.ie,"Castlemartyr Resort, Castlemartyr, Co. Cork, P25 X300",http://terre.ie/
+42,Amicus,0214276455,INFO@AMICUSRESTAURANT.IE,"Paul St, Centre, Cork, T12 WP97",http://www.amicusrestaurant.ie/
+43,Sabor Braziil,0831418024,,"5 Washington St, Centre, Cork, T12 HY1X",http://saborbraziil.ie/
+44,Il Padrino Restaurant,0214271544,info@ilpadrinorestaurant.ie,"21 Cook St, Centre, Cork, T12 K3KA",http://www.ilpadrinorestaurant.ie/
+45,Da Mirco Osteria Italian Restaurant,0212419480,info@damirco.ie,"4 Bridge St, Victorian Quarter, Cork, T23 H10E",http://www.damirco.ie/
+46,Jacques Restaurant,0214277387,info@jacquesrestaurant.ie,"23 Oliver Plunkett St, Centre, Cork, T12 A5D7",http://www.jacquesrestaurant.ie/
+47,CoqBull,0214278444,cork@coqbull.com,"18 Academy St, Centre, Cork, T12 KWX7",http://www.coqbull.com/
+48,Golden Elephant,0214895697,Service@G-Thai.com,"Millhouse, W Douglas St, Douglas, Cork, T12 A7KT",https://www.g-thai.com/
+49,Flemings Restaurant - Country House,0214821621,,"Tivoli, Cork",https://flemingsrestaurantcountry.hotelu1.top/
+50,Bocelli Italian Kitchen & Wine Bar,0214274537,bocellicork@gmail.com,"1, 2, 3 Maylor St, Centre, Cork, T12 DX23",http://www.bocellicork.com/
+51,Bella Napoli,0214279122,,"20 Academy St, Centre, Cork, T12 V9DK",http://bellanapolicork.com/
+52,Gallo & Galetti,0212040698,info@galloandgaletti.ie,"Unit 7/8, Bishopstown Rd, Wilton, Cork, T12 YC53",http://www.galloandgaletti.ie/
+53,The Old Town Whiskey Bar at Bodega,0214273756,heathersheehanbodega@gmail.com,"44-45 Corn Market St, Centre, Cork, T12 W27H",http://www.oldtownwhiskeybar.com/
+54,Cask,0214500913,info@caskcork.com,"48 MacCurtain Street, Victorian Quarter, Cork, T23 F104",http://www.caskcork.com/
+55,Helena's Restaurant,,reservations@imperialhotelcork.ie,"Pembroke St, Centre, Cork",https://www.imperialhotelcork.com/HelenasRestaurant.html
+56,Cafe Mexicana,0214276433,cafemexicanacork@gmail.com,"Carey's Ln, Centre, Cork",http://cafemexicana.ie/
+57,Yuan Ming Yuan,0214254968,,"17 Princes St, Centre, Cork, T12 F853",
+58,Umi Falafel Cork,0214274466,info@umifalafel.ie,"11/12 Academy St, Centre, Cork, T12 T381",http://www.umi-falafel.ie/
+59,The Dean Cork,0212341200,hello.dublin@thedeanhotels.com,"Horgan's Quay, Railway St, Northern Quarter, Cork, T23 RX9K",https://thedeanhotels.com/locations/cork/?utm_source=Google%20My%20Business&utm_medium=organic&utm_campaign=GMB
+60,Iberian Way,0879546451,iberianway.ie@gmail.com,"72 Douglas St, Centre, Cork, T12 HP96",https://iberian-way-1749464378.resos.com/booking?fbclid=PAdGRleAMekXZleHRuA2FlbQIxMQABp8tunMfrgdWv_R6u9kE8ScMtWH-TuFPgK0Y0AsOofvYSA7NgSe-vddxABmwq_aem_dCN3kMqkdV7_8wrnHbe5IA
+61,Miyazaki Japanese Take Away,0214312716,,"1A Evergreen St, Ballyphehane, Cork, T12 E034",https://www.facebook.com/miyazakicork
+62,Thali Nepal Restaurant,0214553389,info@thalinepal.com,"15 Maylor St, Centre, Cork, T12 XC78",http://www.thalinepal.com/
+63,Nosh 19,0214802563,,"19 Princes St, Centre, Cork, T12 W718",http://www.nosh19.ie/
+64,Ristorante Rossini,0214275818,,"33 Princes St, Centre, Cork, T12 V12V",http://rossini.ie/
+65,Epomeo Pizza,0214802066,info@epomeopizza.ie,"31 Princes St, Centre, Cork, T12 YD37",http://epomeopizza.ie/
+66,The MET Bar & Restaurant,0214643700,info@themetropolehotel.ie,"Ground Floor, Metropole Hotel, MacCurtain Street, Victorian Quarter, Cork, T23 PX44",https://www.themetropolehotel.ie/dining/
+67,Tequila Jack's Mexican Restaurant & Tequila Bar,0212021002,info@tequilajacks.ie,"City Quarter, Lapp's Quay, Centre, Cork, T12 KCW0",http://www.tequilajacks.ie/
+68,Akira,0212290121,,"16A French Church St, Centre, Cork, T12 HR92",http://www.akiracork.ie/
+69,Quay Co-op,0214317026,info@quaycoop.com,"24 Sullivan's Quay, Cork, T12 X867",http://www.quaycoop.com/
+70,Hungry Hippo Cork,0212038861,hungry@hippocork.com,"1 Courthouse St, Centre, Cork, T12 RY60",https://hippocork.com/
+71,Kelly's Restaurant,0852062021,,"64 Oliver Plunkett St, Centre, Cork, T12 K5FH",
+72,The Long Valley Bar,0214272144,longvalleybar@gmail.com,"Winthrop Arcade, 10 Winthrop St., Centre, Cork, T12 NW64",http://thelongvalleybar.ie/
+73,Soul,0212413354,framerdevs@gmail.com,"37 Washington St, Centre, Cork, T12 CP0K",http://www.soulcork.ie/
+74,Orchids Restaurant,0214845900,enquiries@hayfieldmanor.ie,"Hayfield Manor Hotel, Perrott Ave, College Rd, Centre, Cork, T12 HT97",https://www.hayfieldmanor.ie/uploads/documents/GeneralDocuments/Orchids_Menu_A_La_Carte.pdf
+75,Haveli Indian Restaurant,0214894482,,"Unit 10, Church St, Douglas, Cork",http://www.haveli.ie/
+76,Wabisabi Sushi and Noodles Bar,0214279884,,"89/90 Oliver Plunkett St, Centre, Cork, T12 FT2R",http://www.wabisabicork.com/
+77,Clancy's Cork,0212344455,user@domain.com,"15-16 Princes St, Centre, Cork, T12 V6FH",http://www.clancyscork.ie/
+78,Holy Smoke Kitchen,0214273000,info@mardyke.com,"The, Mardyke Entertainment Complex, Sheares St, Centre, Cork, T12 CX7A",http://mardyke.com/holy-smoke/?utm_source=google%20maps%20-%20Locl.io&utm_medium=Website%20Button&utm_campaign=Holy%20Smoke%20-%20Locl.io%202019
+79,MYXTIQ Cork City,0894479900,reachus@myxtiq.ie,"38 Pope's Quay, Shandon, Cork, T23 R2WP",https://myxtiq.ie/
+80,The Thomond Bar,0214279747,thomondbarcork@gmail.com,"2 Marlboro St, Centre, Cork",http://www.thomondbar.com/
+81,Old Oak,0214276165,,"113 Oliver Plunkett St, Centre, Cork, T12 PY8A",http://www.facebook.com/oldoak
+82,Rising Sons Brewery,0212414764,risingsonscork@gmail.com,"Corn Market St, Centre, Cork, T12 WK27",http://www.risingsonsbrewery.com/
+83,The Old Town Taqueria @ Black Dog,0212393375,,"53 N Main St, Centre, Cork, T12 AE13",
+84,Sensei Coffee & Sushi Cafe,0858627157,senseicorkcafe@gmail.com,"1 Mardyke St, Mardyke, Cork, T12 FE00",https://www.senseicafe.ie/
+85,Sober Lane,0214317979,party@soberlane.com,"5 Sullivan's Quay, Cork, T12 H771",https://soberlane.ie/
+86,The Hawthorn Bar - Cork's Most Scenic Pub,0214962768,,"The Hawthorn Bar, The Lough, Cork, T12 Y7VP",
+87,Bunsen,0212390660,hello@bunsen.ie,"4 French Church St, Centre, Cork, T12 K4XN",http://bunsen.ie/
+88,Saint Francis Provisions,0830168652,user@domain.com,"An Ché Ghearr, Plotaí an Bhaile, Cionn tSáile, Co. Contae Chorcaí",https://saintfrancisprovisions.squarespace.com/
+89,The Courtyard on Sober Lane,0214311846,info@thecourtyardonsoberlane.com,"S Gate Bridge, Cork",http://thecourtyardonsoberlane.com/
+90,Bellini's Restaurant,0214365555,info@maryborough.ie,"Maryborough, Cork, T12 XR12",https://www.maryborough.com/wine-dine/bellinis-restaurant/?utm_source=mybusinessbellinis&utm_medium=organic
+91,Cafe Jane,0212410668,,"116 Shandon St, Gurranabraher, Cork, T23 YR02",
+92,Kielys,0214279442,info@kielys.ie,"4 Maylor St, Centre, Cork, T12 D9W2",http://www.kielys.ie/
+93,NORTH at The Address Cork (formerly McGettigan's Cookhouse),0214539000,glasgow@northeatery.com,"Military Hill, St Luke's, Cork",http://www.northeatery.com/cork
+94,Malay Kitchen Cork City,0214278678,malaykitchen@hotmail.com,"4&5 Paradise Pl, S Main St, Centre, Cork",http://www.malaykitchen.ie/
+95,The Raven Bar,0214277307,user@domain.com,"100 S Main St, Centre, Cork, T12 VY4X",http://www.theravenbar.com/
+96,Sakura Cuisine,0214508228,,"38 MacCurtain Street, Victorian Quarter, Cork, T23 N772",https://www.sakurajapaneserestaurant.ie/
+97,Crawford & Co,0830105587,info@crawfordandco.ie,"10/11 Anglesea St, Ballintemple, Cork, T12 CXN8",http://crawfordandco.ie/
+98,Rare,0214772209,reservations@rare1784.ie,"3/4 Pearse St, Sleveen, Kinsale, Co. Cork, P17 NA72",https://rare1784.ie/
+99,Brown's Brasserie Cork at Brown Thomas,0214805555,cork@brownsbrasserie.ie,"Brown Thomas Cork - Level 2, 18-21 St Patrick's St, Co. Cork, T12 HC60",http://www.brownsbrasserie.ie/
+100,Sultan Cafe Restaurant & Shisha Lounge,0892149471,,"Unit 5, Penrose Wharf, Penrose Quay, Cork, T23 X284",https://www.facebook.com/Sultan.Cork
+101,Don Gregorio,,dongregorioinfo@gmail.com,"7 Washington St, Centre, Cork, T12 Y75F",https://dongregorio.ie/
+102,Rearden's Bar,0214658100,info@reardens.com,"26 Washington St, Centre, Cork, T12 WNP8",http://www.reardens.com/
+103,Hysterical Histories Cork,0876419355,hystericalhistoriesireland@gmail.com,"Amicus, Paul St, Centre, Cork, T12 WP97",http://www.hystericalhistories.ie/
+104,Reiwa Japanese Restaurant,0214274024,,"40 Paul St, Centre, Cork, T12 AH90",http://www.reiwacork.ie/
+105,The Imperial Hotel & SPA,0214274040,reservations@imperialhotelcork.ie,"76 S Mall, Street, Cork, T12 A2YT",https://www.imperialhotelcork.com/?utm_source=GMBlisting&utm_medium=organic
+106,Man Friday,0214772260,info@manfridaykinsale.ie,"Scilly, Kinsale, Co. Cork",https://manfridaykinsale.ie/
+107,Café Gusto,0214254446,info@cafegusto.com,"3 Washington St, Centre, Cork, T12 R9WH",http://www.cafegusto.com/
+108,Café Marius,0852250263,,"Unit 4B, Grand Parade, Centre, Cork, T12 V528",
+109,The Black Dog,0212393371,,"53 N Main St, Centre, Cork, T12 AE13",https://www.instagram.com/blackdogcork/?hl=en
+110,O'Flynns Gourmet Sausage Co.,0214274422,user@domain.com,"14 Winthrop St., Centre, Cork",http://www.oflynnsgourmetsausages.ie/
+111,Dukes Coffee Company,0214905877,,"4 Carey's Ln, Centre, Cork, T12 YY89",http://www.dukes.ie/
+112,The Shelbourne Bar,0214509615,user@domain.com,"17 MacCurtain Street, Victorian Quarter, Cork, T23 DE79",https://www.theshelbournecork.ie/
+113,No.76,0214274040,reservations@imperialhotelcork.ie,"76 S Mall, Centre, Cork",https://www.imperialhotelcork.com/No-76.html
+114,Pearl River,0214274149,,"21 Princes St, Centre, Cork",
+115,Deep South,0867950544,hello@deepsouth.ie,"51 Grand Parade, Centre, Cork, T12 H677",https://www.deepsouth.ie/
+116,Greenwich,0214276376,greenwichcork@gmail.com,"19 Caroline St, Centre, Cork, T12 Y208",https://www.greenwich.ie/
+117,The SouthGate,0214311846,info@thecourtyardonsoberlane.com,"Barrack St, S Gate Bridge, Cork",http://theflyingenterprise.com/
+118,The Friary,,,"62 Shandon St, Sunday's Well, Cork, T23 X499",https://facebook.com/thefriarycork/
+119,An Bróg Bar + Kitchen,0212038530,info@anbrog.ie,"74 Oliver Plunkett St, Centre, Cork, T12 FP28",https://anbrog.ie/
+120,Lafayette’s,0214274040,reservations@imperialhotelcork.ie,"76 S Mall, Centre, Cork, T12 A2YT",https://www.imperialhotelcork.com/dining/lafayettes/

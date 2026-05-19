@@ -1,0 +1,121 @@
+id,company_name,telephone_num,email,street,website
+1,Nolan's Deli,0659056028,,"49 O'Curry St, Dough, Kilkee, Co. Clare, V15 FD40",
+2,Ryans Deli & Butchers,0659051980,,"Kilrush, Co. Clare, V15 KR52",
+3,Cooks Lane Cafe & Deli,0870615792,,"Cooks Lane, 3, O'Connell Street, Clonroad Beg, Ennis, Co. Clare, V95 A721",http://cookslanecafe.com/
+4,The Snack Shack,0656820750,,"Abbey Street Car Park, Clonroad Beg, Ennis, Co. Clare",
+5,Hugo’s Bakery,,,"Ennistymon Rd, Dough, Lahinch, Co. Clare, V95 XR58",http://instagram.com/hugos_lahinch/
+6,Market House Ennistymon,0657072548,info@markethouseennistymon.com,"Church St, Ennistimon, Ennistymon, Co. Clare",http://www.markethouseennistymon.ie/
+7,Ennis Gourmet Store,0656843314,lasbleyedavid@gmail.com,"1 Barrack Court, Clonroad Beg, Ennis, Co. Clare, V95 VEY9",https://www.gourmet-hampers.ie/
+8,The River deli,061411188,,"Unit 1A Charlotte's Quay, Prior's-Land, Limerick, V94 TW5E",
+9,Dasco Deli,061598689,,"2 High St, Prior's-Land, Limerick, V94 A309",
+10,The Larder,,,"Rent An Irish Cottage, Knocknagroagh, Ballyvaughan, Co. Clare",https://m.facebook.com/pages/category/Coffee-Shop/The-Larder-264907203669046/
+11,The Country Store,061473977,,"Main St, Ardskeagh, Broadford, Co. Clare, V94 V6V3",
+12,The Ennis Food Emporium Ltd,0656820554,foodemporiumharmonyrow@gmail.com,"Francis St, 8/9, Clonroad Beg, Ennis, Co. Clare, V95 AK23",http://thefoodemporiumennis.com/
+13,Le Croque Cafe sandwich Bar,,,"29 Upper Market St, Clonroad Beg, Ennis, Co. Clare, V95 XW66",
+14,Barry's Shop,,,"R463, Rosmadda West, Ardnacrusha, Co. Clare",
+15,The Cheese Press,,,"Main St, Ennistimon, Ennistymon, Co. Clare, V95 H9AW",https://cheesepressennistymon.com/
+16,Xl Shop Drumgeeley,061471416,,"Drumgeely, Shannon, Co. Clare",
+17,Coote's Shop & Bakery,0656824949,,"Cahercalla Cross, Kilrush Rd, Cahircalla More, Ennis, Co. Clare, V95 X466",
+18,Talty's Mace/Circle K Lissycasey,0656834151,,"Liscasey, Lissycasey, Co. Clare",https://www.facebook.com/talty.stores
+19,MACE Lisdoonvarna,0657074014,info@mace.ie,"Church Street, Rathbaun, Lisdoonvarna, Co. Clare, V95 EY66",http://www.mace.ie/
+20,the Larder,,user@domain.com,"29 Mallow St, Prior's-Land, Limerick, V94 D370",http://riftslarder.com/
+21,Clarke's Daybreak,0656827196,,"R458, Crusheen, Co. Clare",
+22,Eva's,0656823901,,"10 Merchants Square, Clonroad Beg, Ennis, Co. Clare, V95 WRX0",
+23,Meaney's shop,,,"Creegh South, Co. Clare",
+24,MACE Shannon,061708732,info@mace.ie,"Ballycasey Ct, Smithstown, Shannon, Co. Clare",https://www.mace.ie/
+25,Londis Supermarket,0657084101,,"Leagard North, Co. Clare",
+26,Tierney's Costcutter,0656821622,,"Tulla Road, Ennis, Co. Clare, V95 DR58",
+27,Hugo's Cafe,,,"2, 2 Ennistymon Rd, Dough, Lahinch, Co. Clare",
+28,"Quigleys Cafe, Bakery & Deli",061228688,,"Crescent Shopping Centre, Dooradoyle, Limerick",http://www.quigleys.ie/
+29,O'Briens Café,0656822848,,"Abbey Street Car Park, 42 Abbey St, Clonroad Beg, Ennis, Co. Clare, V95 CV04",http://www.obriens.ie/
+30,Donlon's SuperValu Tulla,0656835255,,"Main St, Tulla, Co. Clare, V95 XW82",https://supervalu.ie/
+31,McNamee’s Londis,0657085827,,"Bank Place, Leagard North, Miltown Malbay, Co. Clare",https://www.facebook.com/LondisMiltownMalbay/
+32,Spar Lifford,0656822497,,"Lifford Rd, Lifford, Ennis, Co. Clare, V95 TD21",
+33,Centra Sixmilebridge,061290663,talk2us@centra.ie,"The Square, Ieverstown, Sixmilebridge, Co. Clare, V95 HY3Y",https://centra.ie/store/452
+34,O'Connor's Bakery,061705291,,"Unit 17, Shannon Town Centre, Tullyvarraga, Shannon, Co. Clare, V14 YN12",http://www.oconnorsbakery.com/
+35,Cafe Aroma,0894845309,,"Bank Pl, Clonroad Beg, Ennis, Co. Clare",
+36,"Castletroy Spar Deli, Coffee and Supermarket",061333802,,"Castletroy Retail Park, Limerick",http://www.spar.ie/
+37,The Banner Plaza,0656719311,eucv@supermacs.ie,"M18 Exit 12, Kilbreckan, Ennis, Co. Clare, V95 TXA3",https://www.plazagroup.ie/
+38,The Burren Smokehouse,0657074432,,"Kincora Rd, Rathbaun, Lisdoonvarna, Co. Clare, V95 HD70",http://www.burrensmokehouse.ie/
+39,MACE Kilkee,0659056249,info@mace.ie,"O'Curry St, Dough, Kilkee, Co. Clare, V15 TR98",https://www.mace.ie/
+40,Daybreak,0656820312,info@mace.ie,"Kilrush Rd, Cahircalla More, Ennis, Co. Clare",https://www.mace.ie/
+41,Smitz Shop & Cafe,061703313,eat@smitzcafe.com,"Unit 1, Elite Business Park, Smithtown Industrial Estate, 2, Smithstown, Shannon, Co. Clare",http://www.smitzcafe.com/
+42,Oly's bakery and bistro,0833002778,,"42 Parnell St, Clonroad Beg, Ennis, Co. Clare, V95 W6PK",
+43,24/7 SHOPLMK,061310300,,"64/65 Henry St, Ballinacurra (Bowman), Limerick, V94 PR52",
+44,Foodie's Korner,0657071939,,"Ennistimon, Co. Clare, V95 Y381",
+45,Johnseys Friendly Store,061326966,,"47 O'Callaghan Ave, Kileely, Limerick, V94 YF9R",
+46,Centra Ballyvaughan,0657077181,,"Ballyvaghan, Co. Clare, H91 A326",http://www.spar.ie/
+47,Barrons Spar Blackwater,0851621842,,"Blackwater, Ardnacrusha, Co. Clare, V94 RKT0",
+48,MACE Kildimo,061394976,info@mace.ie,"Kildimo Food Court, Kildimo, Kildimo New, Co. Limerick, V94 YEY4",http://www.mace.ie/
+49,Spar,,,"The Square, Rathbaun, Lisdoonvarna, Co. Clare",http://www.spar.ie/
+50,The Gourmet Store,0567771727,,"56 High St, Gardens, Kilkenny, R95 YD57",https://www.facebook.com/gourmetstorekk/
+51,Garrihy's Aran View Filling Station,0657074850,aranviewweb@gmail.com,"Boherboy, Doolin, Co. Clare",http://aranview.ie/
+52,Royal Spice Land Your stop Ennis,0858510947,info@royalspiceland.com,"Station Rd, Clonroad Beg, Ennis, Co. Clare, V95 C6RP",http://www.royalspiceland.com/
+53,Relish Fine Foods & Delicatessen,0838118883,info@relishfineoods.ie,"Thurles Townparks, Thurles, Co. Tipperary, E41 Y640",http://www.relishfinefoods.ie/
+54,Gleeson's Spar Supermarket and Deli,061310913,,"43 Catherine St, Prior's-Land, Limerick",http://www.spar.ie/
+55,Jones's SuperValu Miltown Malbay,0657085677,,"Ennis Rd, Leagard North, Miltown Malbay, Co. Clare, V95 R264",https://supervalu.ie/
+56,Centra Clonroadmore,0656843153,talk2us@centra.ie,"Clonroad More, Ennis, Co. Clare, V95 TK23",https://centra.ie/store/230
+57,Peppermill,0656891010,contact@Webonjo.com,"Business Park, Quin Rd, Bunnow, Ennis, Co. Co",https://virawo.com/peppermill-283970-web
+58,Town House Deli,050422348,,"The Mall, Thurles Townparks, Thurles, Co. Tipperary, E41 N7N2",
+59,McNamee's Londis,0656839392,,"Culleen, Kilmaley, Co. Clare",
+60,XL Ruan,0852333939,,"Ruan Commons, Ruan, Co. Clare, V95 DP27",https://instagram.com/xl_ruan_store_?igshid=18gi2qcgjlv39
+61,Centra Clarecastle,0656820152,talk2us@centra.ie,"Church View, Clare Commons, Clarecastle, Co. Clare, V95 D258",https://centra.ie/store/147
+62,Cafe Solo Shannon,061771971,,"Bay 70, Shannon Industrial Estate, Shannon, Co. Clare",
+63,Centra,061340326,,"Rosmadda West, Ardnacrusha, Co. Clare, V94 C5XC",
+64,Queally's SuperValu Kilrush,0659051885,,"Frances St, Kilrush, Co. Clare, V15 F668",https://supervalu.ie/
+65,Matt's Sandwiches,091527880,,"40 Lower Newcastle, Galway, H91 D9D0",http://www.mattssandwiches.ie/
+66,Subway Dooradoyle Centre,061302537,,"Unit 4, St Nessan's Rd, Dooradoyle, Limerick, V94 AY03",https://restaurants.subway.com/ireland/limerick/limerick/3-dooradoyle-centre?utm_source=yxt-goog&utm_medium=local&utm_term=acq&utm_content=72284&utm_campaign=evergreen-2020&y_source=1_ODgwMjkwNDUtNzE1LWxvY2F0aW9uLndlYnNpdGU=
+67,Gala Clarecastle,0656828929,,"Kildysart Rd, Ballaghafadda East, Clarecastle, Co. Clare, V95 K2AW",
+68,Gala Kilkishen (NeillHiggins Group),0833755041,galacustomerservice@gala.ie,"4 Main St, Clonlea, Kilkishen, Co. Clare, V95 R72X",http://gala.ie/
+69,Daybreak Bunratty Tara oil,061361216,,"Old Bunratty Rd, Bunratty West, Bunratty, Co. Clare",https://m.facebook.com/Bunratty-Spar-1118089811550653/
+70,The Ivy Cottage,0858643269,contact@theivycottage.ie,"Doonmacfelim, Doolin, Co. Clare, V95 D744",http://www.theivycottage.ie/
+71,Fitzpatrick's SuperValu Ennistymon,0657071600,,"Church St, Ennistimon, Ennistymon, Co. Clare, V95 XE19",https://supervalu.ie/
+72,Centra Loughville,0656824311,talk2us@centra.ie,"Lahinch Road, Ennis, Co. Clare, V95 Y52W",https://centra.ie/store/338
+73,Queally's SuperValu Killaloe,061620230,,"Convent Hill, Shantraud, Killaloe, Co. Clare, V94 EA49",https://supervalu.ie/
+74,Spar Lahinch,0657086810,,"Rue Darzon, Back Lane, Lahinch, Co. Clare, V95 CD3A",
+75,Emily's Delicatessen,0526132728,,"Burke St, Fethard, Co. Tipperary",https://www.facebook.com/emilysdelicatessenfethard/
+76,"Carrigs Mace & Applegreen Service Station, & Drumquin Accommodation",0656838633,Scarrig63@gmail.com,"Drumquin, Tiermaclane, Co. Clare, V95 E2XE",http://www.drumquinaccommodation.ie/
+77,Mace Inagh,0656836729,,"Mace, Carrowkeel West, Inagh, Co. Clare, V95 X372",
+78,O'Brien's Irish sandwich Cafe Crescent SC,061210622,,"Garryowen Mall, Crescent shopping centre, Dooradoyle, Limerick, V94 PD32",http://www.obrienscafe.ie/
+79,Wild Garlic Kitchen Bakery,0879233099,,"Unit 2 Market Hall, Church St, Gort, Co. Galway, H91 H29K",http://wildgarlickitchen.net/
+80,Costcutter Moyross,0831435219,,"Watch House Cross, Kileely Rd, Monabraher, Limerick, V94 KR60",http://www.costcutter.ie/
+81,Centra Gort Road,0656797612,talk2us@centra.ie,"Merchant, Gort Rd, Ennis, Co. Clare, V95 YC6N",https://centra.ie/store/231
+82,"Gleeson's Spar and Off Licence, Henry St",061467333,,"Apartment 507, Henry St, Prior's-Land, Limerick",https://www.spar.ie/
+83,Maxol Service Station Clarecastle,0656840843,customerservice@maxol.ie,"Clareabbey, Ennis, Co. Clare, V95 T25F",https://stations.maxol.ie/clare/clare/clareabbey?utm_source=GMB&utm_medium=social&utm_campaign=Yext&y_source=1_MjU4OTExMDUtNzE1LWxvY2F0aW9uLndlYnNpdGU%3D
+84,Sherwood Inn,0656820255,info@thesherwood.ie,"Unit 20, Francis St, Clonroad Beg, Ennis, Co. Clare, V95 FNR2",http://www.thesherwood.ie/
+85,SuperNetto Ennis,0838289536,,"Unit 11, Westgate Business Park, Kilrush Rd, Cahircalla More, Ennis, Co. Clare",
+86,Fitzpatricks Circle K Service Station/Costcutter,0659050010,,"Ennis Rd, Kilmihil, Kilmihill, Co. Clare",https://www.circlek.ie/
+87,Emo Liscannor Service Station,0657081860,richard.irvine@certaireland.ie,"R478, Cloghaundine, Co. Clare, V95 N92H",http://www.emo.ie/
+88,"McGreal's, Deli, Butchers & Mace Store",091753088,mcgrealsorders@gmail.com,"1 Ballybrit Ct, Galway, H91 TRH2",http://www.mcgrealsfoods.ie/
+89,Supermac's & Papa John's Banner Plaza,0656719311,contact@supermacs.ie,"Ennis M18, J12, Ennis, Co. Clare, V95 TXA3",https://supermacs.ie/store/clare-the-banner-plaza/
+90,SIAR KINVARA,0860506535,siarkinvara@gmail.com,"Brogan House, The Quay, Cartron, Kinvarra, Co. Galway, H91 P6PP",http://www.siarkinvara.com/
+91,Luna Food Co.,0657084111,,"Ennistymon Rd, Breaffy North, Miltown Malbay, Co. Clare, V95 F6CN",
+92,"Maxol Service Station, Crowe's",061369132,customerservice@maxol.ie,"Cloghlea, Sixmilebridge, Co. Clare",http://www.maxol.ie/service-stations/service-station-finder/detail/500755-crowe
+93,Hillbilly's Ennis,0656867096,,"58 O'Connell Street, Clonroad Beg, Ennis, Co. Clare, V95 H590",https://www.hillbillys.ie/
+94,Ryan's Centra Deli,061624800,talk2us@centra.ie,"Apartment 2, Newport, Portryan, Co. Tipperary, V94 TPD7",https://centra.ie/store/383
+95,Coco's Deli,0599722212,,"Kilcarrig St, Kilcarrig, Bagenalstown, Co. Carlow",
+96,POLANDIA,0899528411,,"Unit 2, Limerick Rd, Clonroad More, Ennis, Co. Clare, V95 NV20",https://www.facebook.com/polandiashop
+97,Sodalicious,061595156,,"9 Lower Cecil St, Prior's-Land, Limerick, V94 Y9P9",https://www.sodalicious.ie/?utm_source=GBP.website&utm_medium=GBP&utm_campaign=fd8645-website
+98,Brian Boru Service Station,061529359,eucv@supermacs.ie,"Drewsborough, Tuamgraney, Co. Clare, V94 DEH6",http://plazagroup.ie/
+99,Fanny O Dea's,0656834143,fergalhaier@yahoo.com,"Lissycasey, Ennis, Co. Clare, V95 DX08 GPS 52.738998 - 9, Lissycasey, V95 DX08",http://www.fannyodeas1790.com/
+100,Vandeleur Walled Garden & Visitor Centre,0659051760,enquiries@vandeleurwalledgarden.ie,"Killimer Rd, Feagarroge, Kilrush, Co. Clare, V15 E735",http://www.vandeleurwalledgarden.ie/
+101,Daybreak,,,"Dock Rd, Corkanree, Limerick, V94 PA4C",http://daybreakireland.ie/
+102,Burke's EUROSPAR Supermarket,091637250,eurospar@bwg.ie,"Kinvarra House, Main St, Kinvarra, Co. Galway",http://www.eurospar.ie/
+103,EUROSPAR,061368036,eurospar@bwg.ie,"Ennis Rd, Newmarket, Newmarket on Fergus, Co. Clare",https://eurospar.ie/store-locator/
+104,Minihane's SuperValu Gort,091632784,,"Church St, Ballyhugh, Gort, Co. Galway, H91 HHP6",https://supervalu.ie/
+105,Spar,061364484,,"Skycourt Shopping Centre, Tullyvarraga, Shannon, Co. Clare",http://www.spar.ie/
+106,Ryan's SuperValu,0656823805,,"Roslevan Shopping Centre, Tulla Rd, Rosslevan, Ennis, Co. Clare, V95 Y4AE",http://www.supervalu.ie/
+107,Casey's Londis,061314040,,"Upper, Dock Rd, Courtbrack, Limerick",
+108,Centra Woodview,061326399,talk2us@centra.ie,"Old Cratloe Rd, Moylish, Limerick, V94 X593",https://centra.ie/store/513
+109,Centra Upper William St,061413655,talk2us@centra.ie,"41/42 Upper William St, Prior's-Land, Limerick, V94 K12X",https://centra.ie/store/329
+110,Mortells Delicatessen & Seafood Restaurant,061415457,,"49 Roches St, Prior's-Land, Limerick, V94 TW86",
+111,Gala Express,1850600100,galacustomerservice@gala.ie,"5 Quinlan St, Prior's-Land, Limerick, V94 W2X5",http://www.gala.ie/
+112,McCambridge's Of Galway Ltd,091562259,sales@mccambridges.com,"38-39 Shop St, Galway, H91 T2N7",http://mccambridges.com/
+113,Centra Scarriff,061921000,talk2us@centra.ie,"Main St, Ballyminoge, Scarriff, Co. Clare, V94 F2C6",https://centra.ie/store/447
+114,İSTANBUL Kebab & Grill Restaurant Takeaway,0656883608,,"1&2 River Lane, Parnell St, Clonroad Beg, Ennis, Co. Clare, V95 H398",
+115,"Quigleys Cafe, Bakery & Deli",050490908,,"UNIT N23, THURLES SHOPPING CENTRE, Slievenamon Rd, Thurles, Co. Tipperary, E41 R9C4",http://www.quigleys.ie/
+116,"The Grove Restaurant, Ennis",0656893280,,"Tulla Rd, Rosslevan, Ennis, Co. Clare, V95 E03Y",http://thegroveennis.ie/
+117,Centra Corofin,0656827604,talk2us@centra.ie,"Main St, Baunkyle, Corofin, Co. Clare, V95 WC0V",https://centra.ie/store/539
+118,Centra Gort,091630972,talk2us@centra.ie,"George's Street, Gort, Co. Galway, H91 DD43",https://centra.ie/store/261
+119,DELI LITES Ireland,+442841754807,orders@delilites.com,"Unit 1 Milltown Industrial Estate, Greenan Rd, Warrenpoint, Newry BT34 3FN, United Kingdom",http://www.delilites.com/
+120,Adriano's Pizza & Pasta,0656845726,,"Elm Park, Gort Rd, Lifford, Ennis, Co. Clare",http://www.adrianos.ie/

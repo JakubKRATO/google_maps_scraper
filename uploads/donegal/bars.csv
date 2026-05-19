@@ -1,0 +1,99 @@
+id,company_name,telephone_num,email,street,website
+1,McCafferty's Bar,0749742656,donegaltown@mccaffertysbars.com,"The Diamond, Donegal, F94 AP8W",https://mccaffertysdonegal.com/
+2,The Forge,,,"7 Meetinghouse St, Mullans, Donegal, F94 P9K7",
+3,The Reel Inn,0858416213,,"Bridge St, Donegal, F94 R590",
+4,The Bank Bar,0749723790,,"The Diamond, Donegal, F94 AP8W",
+5,Mulreany's Bar,,,Donegal,
+6,Olde Castle Seafood Bar,0749721262,info@oldecastlebar.com,"Castle St, Donegal, Donegal Town, Co. Donegal",https://www.oldecastlebar.com/
+7,The Reveller Bar,0749721201,revellerbar@gmail.com,"Diamond, Bridge St, Donegal",http://www.revellerlodging.com/
+8,O'Donnells Bar & Restaurant Donegal,0749723813,,"The diamond, Donegal, F94 AK51",
+9,McCafferty's at The Pier,0749304005,thepier@mccaffertysbars.com,"Quay St, Glebe, Donegal, F94 XWV9",https://thepier.mccaffertysbars.com/
+10,Mo Chlann Coffee & Wine Bar,,,"Bridge St, Donegal, F94 YC93",https://www.instagram.com/mochlann.coffeebar?igsh=MWNlcjVrcnYyeHI0cg==
+11,Mac's Bar,0876340084,,"Main street, Dunkineely, Co. Donegal, F94 E1VH",
+12,The Harbour Restaurant & Bar,0749721702,theharbour1993@gmail.com,"Quay St, Donegal, F94 R660",https://harbourdonegal.ie/?fbclid=IwZXh0bgNhZW0CMTEAAR2kq-dZAf0lexoy1BBPp9k8cpiFJTEpRxhpr4hbpExkNB2wR8nkTjpOPMA_aem_6hq0BXGbQtcYdowh4VIPew
+13,"The Olde Glen Bar, Restaurant & Bia Box",0831585777,hello@oldeglen.ie,"Glenmenagh, Carrickart, Co. Donegal, F92 KR23",http://www.oldeglen.ie/
+14,Harbour Bar,0749155920,,"Crocknamurleog, Co. Donegal",
+15,The Glen Tavern,0749551170,,"Greenans, Glenties, Co. Donegal",
+16,Sonny McSwines,,,"R267, Donegal",
+17,McIntyre's Bar,0860719849,,"Main St, Dunkineely, Co. Donegal",
+18,"Wilkin's Bar & Lounge | Bar & Lounge in churchhill, Donegal",0749137019,,"Church Hill, Co. Donegal",https://m.facebook.com/Wilkins-Bar-and-Lounge-342254825959056/?ref=page_internal&mt_nav=1
+19,Leo's Tavern,0749548143,info@leostavern.com,"Meenaleck, Crolly, Co. Donegal",https://leostavern.com/
+20,Marina’s Café & Wine Bar,0749742548,,"11 R267, Donegal",
+21,Old Stone,0749723815,oldstonecafe@gmail.com,"unit 2/3 donegal carpark, Donegal, F94 T3PR",http://theoldstone.ie/
+22,7 Arches Bar,,,"Laghy, Laghey, Co. Donegal",
+23,THE RAMBLING HOUSE BAR & RESTAURANT,0749740813,,"Main St, Laghy, Laghey, Co. Donegal, F94 Y048",
+24,Abbey Bar,0749721014,info@abbeyhoteldonegal.com,"The Diamond, Donegal, F94 AP8W",https://www.abbeyhoteldonegal.com/dining/the-abbey-bar
+25,Smugglers Creek Inn,0719852366,,"Cliff Road, Rossnowlagh, Co. Donegal",http://www.smugglerscreekinn.com/
+26,Blas@thegateway,0749723011,info@thegatewaydonegal.com,"Lough Eske Rd, Mullans, Donegal",http://www.thegatewaydonegal.ie/
+27,Market House Restaurant,0749721014,info@abbeyhoteldonegal.com,"Donegal, Diamond, Co. Donegal",https://www.abbeyhoteldonegal.com/market-house-restaurant.html
+28,Biddy's O'Barnes,0851390304,feedback@biddysobarnes.com,"Biddys O'Barnes, Barnesmore Gap Barnesmore, F94 HP22",http://www.biddysobarnes.com/
+29,John Joe's Bar,0749738493,contact@bizsite.link,"Main Street, Keenaghan, Kilcar, Co. Donegal, F94 A3NR",https://mapbo.net/john-joes-bar-456258-web
+30,Seven Arches,,,"7 Main St, Donegal, Laghey, Co. Donegal",
+31,The Rusty Mackerel,0749739101,manager@therustymackerel.ie,"Teelin Rd, Croaghlin, Carrick, Co. Donegal, F94 VP99",http://www.therustymackerel.com/
+32,Donegal Boardwalk Bar & Lounge,0833088635,info@donegalboardwalkresort.ie,"Aghadachor, Carrickart, Co. Donegal",http://www.donegalboardwalkresort.ie/
+33,Elliotts Traditional Irish Bar,0749544111,,"Meenagowan, Lettermacaward, Co. Donegal, F94 YKD4",https://m.facebook.com/ElliottsbarDonegal/
+34,Chapter Twenty @ Mill Park Hotel,0749722880,info@millparkhotel.com,"The Mullins, Mullans, Donegal, F94 HD99",https://www.millparkhotel.com/Chapter-Twenty.html
+35,The Shamrock Bar,0749135057,,"Margarita’s Cocktail Bar, Falcarragh, Letterkenny, Co. Donegal",http://www.facebook.com/theshamrocklodge
+36,Rosie's Bar,,,"Drumkeen, Co. Donegal",https://m.facebook.com/rosiesbar.drumkeen
+37,The Beehive Pub,,,"Drumbaran, Co. Donegal",
+38,Strand View Bar,,,"Maghery Glebe, Maghery, Co. Donegal, F94 P927",
+39,Evelyn's Central Bar,0749739144,,"Mainstreet, Carrick Upper, Carrick, Co. Donegal",
+40,Emerald Bar,0719833787,,"2-3 Main St, Drumacrin, Bundoran, Co. Donegal, F94 TR23",
+41,Packie's Bar,,,"Unnamed Rd, Cor, Co. Donegal",
+42,Bonner’s Bar,0749543368,,"Mullaghduff, Kincasslagh, Co. Donegal",
+43,Maddens Bridge Bar & Restaurant,0719841586,info@maddensbridgebar.com,"Main St, Magheracar, Bundoran, Co. Donegal",https://www.maddensbridgebar.ie/
+44,Rising Tide Bar.,0749736004,,"Inver Glebe, Inver, Co. Donegal",
+45,Quay West Restaurant Donegal Town,0749721590,quaywestdonegal@gmail.com,"Quay St, Donegal, F94 E2A2",https://www.quaywestdonegal.ie/
+46,Gallen's Bar,0749715064,,"Navenny St, Ballybofey, Co. Donegal, F93 TXC2",http://www.instagram.com/gallensbar/
+47,Roddy's Bar,0749551534,,"N56, Drumnasillagh, Glenties, Co. Donegal",
+48,McGeady's Bar,0749531405,,"R251, Money Beg, Co. Donegal",
+49,O’Neill's,,karl.griffin@ucdconnect.ie,"Letterbarra, Co. Donegal",https://oneillsbarletterbarra.com/
+50,The Snug Bar,,,"Main St, Stranorlar, Co. Donegal",
+51,The Stores 'Olde' World Bar,0749159135,,"The Pier, Croaghross, Portsalon, Co. Donegal",https://ie.publocation.com/pubs/donegal/portsalon/the-stores-olde-world-bar
+52,Surfers Bar,,,"Sandhouse Hotel, Rossnowlagh, Co. Donegal",
+53,The Gallery Bar,0749725100,,"Solis Castle Lough Eske, Lough Eske, Co. Donegal",
+54,The Railway Tavern,0749360137,info@railwaytavern.ie,"Station Road, Figary, Fahan, Co. Donegal, F93 TVF2",https://www.railwaytavern.ie/
+55,The North Pole Bar,0749361349,,"Shandrim, Drumfree, Co. Donegal",
+56,Finn McCool's pub,,,"Apartment 1, Castle St, Townparks, Ballyshannon, Co. Donegal",
+57,O’Donnell’s Bar Ballyshannon,0830026826,,"Market Street, Townparks, Ballyshannon, Co. Donegal",
+58,Cheers Bar,,,"Ballybofey, Co. Donegal",
+59,Sharkey's Bar,0749548104,,"Main Street, Illannavoree, Annagry, Co. Donegal",
+60,Diamond Bar,0719861535,,"Pettigo, Co. Donegal",
+61,The Corner House,0749541736,,"Main St, Drumbaran, Ardara, Co. Donegal",
+62,"Dicey Reilly’s Pub, Off-Licence, Microbrewery & Beer Garden",0719851371,sales@diceys.com,"Market Street, Townparks, Ballyshannon, Co. Donegal, F94 FY61",http://diceys.com/
+63,Whoriskey's,0719851683,,"Cashelard, Co. Donegal",
+64,The Celtic Marine Bar,0719829856,,"2 W End, Magheracar, Bundoran, Co. Donegal, F94 AX07",
+65,MillTown Bar And Petrol Station,0749736005,,"Mullanboys, Co. Donegal",
+66,The Salmon Inn,0749734040,,"Mullanasole, Co. Donegal",
+67,Brittons Bar,0719861519,,"Main St, Pettigo, Co. Donegal, F94 XR74",
+68,Harbour Bar,0749731049,,"21 Bridge St, Corporation, Killybegs, Co. Donegal, F94 FN83",
+69,McIntyre's Saloon Bar,,,"The Mall, Townparks, Ballyshannon, Co. Donegal",
+70,Nancy's,0749541187,ardaranancysbar@gmail.com,"Front Street, Ardara, Co. Donegal",https://nancysbar.com/
+71,McCafferty's Bar - Lettermacaward,0749544105,mccaffertysbars@gmail.com,"Meenagowan, Lettermacaward, Co. Donegal, F94 KW89",https://lettermacaward.mccaffertysbars.com/
+72,The Chasin’ Bull,0719841988,info@thechasinbull.com,"Main St, Drumacrin, Bundoran, Co. Donegal, F94 YC81",https://www.thechasinbull.com/
+73,Doherty's Bar,,,"Ardara, Co. Donegal",
+74,Shamrock Inn,0749744801,,"Main Street, Mountcharles, Co. Donegal",
+75,Harkins Bar & Lounge,0749133021,,"Brockagh, Lifford, Co. Donegal",
+76,Railway Bar,0719841196,,"Main St, Drumacrin, Bundoran, Co. Donegal, F94 TR23",
+77,Hi - Da - Way Lounge & Bar,0749153392,,"1 Church Rd, Millford, Milford, Co. Donegal, F92 YY90",https://www.facebook.com/profile.php?id=100054455981928
+78,Village Tavern,0749735622,,"Lower Main St, Mountcharles, Co. Donegal",
+79,The Kicking Donkey & Georges Bar,+447786280351,,"Main St, Drumacrin, Bundoran, Co. Donegal, F94 YTR9",
+80,Leo's Bar,,,"Main Street, Drumnasillagh, Glenties, Co. Donegal",
+81,Wellbrae Bar,0877741682,,"Bridge St, Corporation, Killybegs, Co. Donegal, F94 E718",
+82,Owen Roes Bar,0719851481,owenroesbar@gmail.com,"East Port Road, Ballyshannon, Co. Donegal",http://www.owenroes.com/
+83,McCafferty's Bar & Restaurant,0749561682,dungloe@mccaffertysbars.com,"Lower Main St, Meenmore, Dungloe, Co. Donegal",https://dungloe.mccaffertysbars.com/
+84,Teagues Bar,0749541720,,"Drumbaran, Ardara, Co. Donegal",
+85,The Bird's Nest Bar,0719842504,,"W End, Magheracar, Co. Donegal, F94 FKW1",https://www.facebook.com/birdsnestbundoran/
+86,The Thatch Bar,,,"Bishop St, Townparks, Ballyshannon, Co. Donegal",
+87,La Bella Donna Restaurant,0749725790,labelladonnarestaurant@gmail.com,"2 Bridge St, Donegal",http://www.labelladonnarestaurant.com/
+88,Mc Ginleys Bar,0719852129,,"Bishop St, Townparks, Ballyshannon, Co. Donegal",
+89,McGuigan's Bar,0749175877,,"193-347 Meetinghouse St, Stranorlar, Co. Donegal, F93 K6W2",
+90,Thatch Bar & Restaurant,0870362108,,"Main Street, Drumnasillagh, Glenties, Co. Donegal, F94 C3CD",
+91,The Galleon Bar @ The Cope House,0876568721,,"Main St, Killybegs, Co. Donegal",
+92,Sister Sara’s Bar and Restaurant,0749122238,sistersaraslk@gmail.com,"Port Rd, Letterkenny, Co. Donegal",http://www.sistersaras.ie/
+93,The Fleet Inn Guesthouse & Restaurant,0749731695,%20info@thefleetinn.com,"21 Bridge St, Corporation, Killybegs, Co. Donegal, F94 FN83",http://www.thefleetinn.com/
+94,Bonners Corner Bar,0749131361,,"Glenfin St, Ballybofey, Co. Donegal",
+95,Bridge Inn Dungloe,0749521526,info@bridgeinndungloe.com,"Lower Main St, Dunglow, Dungloe, Co. Donegal",https://bridgeinndungloe.com/
+96,Harvey’s Bar & Terrace,0749722208,Stay@harveyspoint.com,"Harvey's Point, Lough Eske, Friary, Donegal, F94 E771",https://www.harveyspoint.com/bar-terrace.html
+97,The Peak Bar & Restaurant,0749721035,,Donegal,
+98,Annie Lynn's,0749722849,,"Main St, Donegal",

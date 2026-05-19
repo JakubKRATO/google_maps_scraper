@@ -1,0 +1,121 @@
+id,company_name,telephone_num,email,street,website
+1,O'Connell's Bar,091330807,info@oconnellsgalway.ie,"8 Eyre Square, Galway, H91 FT22",https://oconnellsgalway.ie/
+2,The Front Door Pub,091563757,manager@frontdoorpub.com,"8 Cross Street Upper, Galway, H91 YY06",http://www.frontdoorpub.com/
+3,Tig Cóilí,091561294,tig.coili@yahoo.com,"Mainguard St, Galway",https://tigchoiligalway.com/
+4,The Crane Bar,091587419,info@thecranebar.com,"2 Sea Rd, Galway, H91 YP97",http://www.thecranebar.com/
+5,Tigh Neachtain,091568820,user@domain.com,"17 Cross Street Upper, Galway, H91 F9F7",http://www.tighneachtain.com/
+6,The Salt House,091441550,gbb.office@galwaybaybrewery.com,"Raven Terrace, Galway",http://www.galwaybaybrewery.com/salthouse/
+7,The Quays Bar and Restaurant,091568347,info@quaysgalway.ie,"Quay Ln, Galway",https://quaysgalway.ie/
+8,The Dáil Bar,091563777,info@thedailbar.com,"42-44 Middle St, Galway, H91 R8W3",http://www.thedailbar.com/
+9,Hyde Bar Galway,091564111,info@hydebargalway.ie,"Forster St, Galway, H91 PY7E",https://hydebargalway.ie/
+10,An Púcán,091376561,info@anpucan.ie,"11 Forster St, Galway, H91 P65D",https://anpucan.ie/
+11,The Bunch Of Grapes,091563325,,"2 High St, Galway, H91 KWH2",http://thelatinquarter.ie/listing-item/the-bunch-of-grapes/
+12,Taaffes Bar,091564066,,"19 Shop St, Galway",https://taaffesbar.ie/
+13,Hole in the Wall,091722064,info@holeinthewallbar.ie,"17 Eyre St, Galway, H91 E8K8",http://www.holeinthewallbar.ie/
+14,M.Fitzgerald's Bar,091569600,abroderick@mfitzgeraldsbar.ie.Alan,"14 Quay St, Galway, H91 P628",https://mfitzgeraldsbar.ie/
+15,Garavan's Bar,091562537,,"46 William St, Galway, H91 RX54",http://www.garavans.ie/
+16,O'Connor's Famous Pub,091523468,,"Salthill House, Upper Salthill Rd, Galway, H91 W4C6",http://www.oconnorsbar.com/
+17,Taylor's Bar & Beer Garden,091450475,marketing@taylorsgalway.ie,"s Westend, 7 Dominick St Upper, Galway, H91 RP48",http://taylorsgalway.ie/
+18,Tigh Nora Galway,091563757,info@frontdoorpub.com,"8 Cross Street, Galway, H91 RX00",http://www.tighnoragalway.com/
+19,Barr An Chaladh,091895762,,"Daly's Place, 3 Woodquay, Galway",https://m.facebook.com/barranchaladh/
+20,Seven Bridgestreet,091563804,,"5-7 Bridge St, Galway, H91 A588",http://sevenbridgestreet.ie/
+21,The Oslo Bar,091448390,gbb.office@galwaybaybrewery.com,"226 Upper Salthill Rd, Galway, H91 K7WF",http://galwaybaybrewery.com/oslo/
+22,The Skeff Bar,091563173,party@theskeff.ie,"27 Eyre Square, Galway",http://www.theskeff.ie/
+23,The Kings Head,091567866,info@thekingshead.ie,"15 High St, Galway, H91 AY6P",https://www.thekingshead.ie/
+24,MP Walsh,091456516,,"55 Dominick St Lower, Galway, H91 PY70",http://www.mpwalsh.ie/
+25,Carroll's Bar,091448855,bookings@carrollsbar.ie,"39 Dominick St Lower, Galway, H91 RX83",http://www.carrollsbar.ie/
+26,Bierhaus,091587766,,"2 Henry St, Galway, H91 E271",https://instagram.com/bierhausgalway?
+27,Mary Mullens Bar,091342574,Bookings@marymullens.ie,"12 -14 Prospect Hill, Galway, H91 R6TY",http://www.marymullens.ie/
+28,Hughes Pub,091565943,,"14 Woodquay Street, Galway",https://facebook.com/hughesbar/
+29,The Cellar,091563966,cellarbarbookings@gmail.com,"12 Eglinton St, Galway, H91 D278",http://www.thecellar.ie/
+30,Murphys Bar,091353812,info@murphysbargalway.ie,"9 High St, Galway, H91 KW97",https://murphysbargalway.ie/
+31,Monroe's Tavern,091583397,info@monroes.ie,"14 Dominick St Upper, Galway, H91 WD2H",http://www.monroes.ie/
+32,Tigín,,,"32 Woodquay, Galway, H91 FK81",
+33,Busker Brownes,091563377,user@domain.com,"5 Cross Street Upper, Galway, H91 FX30",http://www.buskerbrownes.com/
+34,The Blue Note,091589116,,"3 William St W, Galway, H91 V184",https://www.facebook.com/groups/62055890475/
+35,The Sliding Rock,091722131,theslidingrock@gmail.com,"37 Newcastle Rd, Galway, H91 W42F",http://www.theslidingrock.ie/
+36,The Ol' 55 Bar,,,"30 Prospect Hill, Galway, H91 YD86",
+37,Screene’s on the Square,091354088,,"9-11 Prospect Hill, Eyre Square, Galway, H91 VK27",
+38,The Dew Drop Inn,091561070,,"Mainguard St, Galway",http://www.facebook.com/DewDropGalway/
+39,Massimo Bar Galway,091582239,massimogalway@gmail.com,"10 William St W, Galway, H91 C2X3",https://www.massimogalway.com/
+40,Queen Street Galway,091567433,info@victoriahotelgalway.com,"Victoria Pl, Galway, H91 KVW0",https://victoriahotelgalway.com/eat-drink/bar-restaurant/?utm_source=google&utm_medium=organic&utm_campaign=Queen+Street+%28GMB%29
+41,Coyotes Late Bar,091895785,,"34 Shop St, Galway, H91 WY2H",http://www.coyotes.ie/
+42,The Lane Winebar,091564864,,"3 Kirwan's Ln, Galway, H91 V1H2",https://shorturl.at/mzsqi
+43,Blake's Bar,091530333,info@brasseriegalway.com,"25 Eglinton St, Galway, H91 VY1F",http://brasseriegalway.com/
+44,Sally Longs Rock Bar,091565756,info@sallylongs.com,"33 Abbeygate Street Upper, Galway, H91 F2RV",https://www.sallylongs.com/
+45,Killorans Bar,091521916,,"256 Upper Salthill Rd, Galway, H91 A3W9",
+46,Sonny Molloy's,091563757,manager@frontdoorpub.com,"2 High St, Galway, H91 KWH2",http://www.frontdoorpub.com/sonny-molloys/
+47,Jack J. Foleys,091448789,editor@OpenInGalway.com,"1 Eyre Square, Galway, H91 ED70",https://www.openingalway.com/2024/03/jack-j-foleys-pub-bar-galway-city.html
+48,O'Reillys Bar and Kitchen,091522610,oreillysbarandkitchen@gmail.com,"232 Upper Salthill Rd, Galway, H91 PTD9",http://oreillysbar.ie/
+49,Darcy's Bar,0860709576,,"2 Forster St, Galway, H91 W862",https://www.facebook.com/Darcysbargalway/
+50,Freeney's Bar,091562609,,"19 High St, Galway, H91 TD79",https://m.facebook.com/pages/Freeneys-Bar/172385122797626
+51,McGinn's Hop House,091374412,,"19 Woodquay, Galway",https://www.facebook.com/mcginnshophouse
+52,The Lough Inn,0873991195,,"32 Woodquay Street, Galway",
+53,P.J. Flaherty's,091373734,,"82 Lower, Salthill, Galway",
+54,Lonergan's Atlantic Bar,091522049,contact@vuyo.me,"258 Upper Salthill Rd, Galway, H91 FY51",https://fipy.me/lonergans-atlantic-bar-872187-web
+55,Harry's Galway,0858621840,,"77 Bohermore, Galway, H91 E7FN",https://harrysgalway.ie/
+56,Murty Rabbitt's,091566490,bookings@murtyrabbitts.ie,"23 Forster St, Galway, H91 W1WK",https://murtyrabbitts.ie/
+57,The Latin Quarter,091530000,,"22 High St, Galway, H91 VX4E",http://www.thelatinquarter.ie/
+58,Boss Doyle's Bar,091564924,reservations@parkhousehotel.ie,"Park House Hotel, Forster St, Galway, H91 PCF8",https://www.parkhousehotel.ie/restaurant-and-bar/boss-doyles-bar/?utm_source=mybusinessBAR&utm_medium=organic
+59,Thirteen On The Green,091562224,info@13onthegreen.ie,"13 Eyre Square, Galway, H91 N6PF",https://13onthegreen.ie/
+60,Cooke's Thatch Bar,091521749,,"2 Newcastle Rd, Galway",
+61,Club Áras na nGael,091567824,,"45 Dominick St Lower, Galway, H91 E1NY",https://clubarasnangael.clubforce.com/
+62,Daróg Wine Bar,091565813,hello@darogwinebar.com,"56 Dominick St Lower, Galway, H91 K225",https://www.darogwinebar.com/
+63,Brasserie On The Corner,091530333,info@brasseriegalway.com,"25 Eglinton St, Galway, H91 VY1F",http://www.brasseriegalway.com/
+64,Róisín Dubh,,info@roisindubh.net,"8 Dominick St Upper, Galway, H91 N4AP",http://www.roisindubh.net/
+65,Trappers Inn & Jackson's Restaurant,091751228,,"Tuam Rd, Galway, H91 T88H",https://www.facebook.com/The-Trappers-Inn-292207657582291/
+66,La Viña,0857456217,user@domain.com,"8 Quay Ln, Galway, H91 H21W",https://lavinawinebar.com/
+67,Kasbah Wine Bar,0857340164,kasbah@tighneachtain.com,"2 Quay St, Galway",https://kasbahwinebar.com/
+68,John Keogh's Gastropub,091449431,info@johnkeoghs.ie,"22-24 Dominick St Upper, Galway, H91 DXH7",http://www.johnkeoghs.ie/
+69,The Universal Bar,091728271,user@domain.com,"9 William St W, Galway, H91 H5R9",http://theuniversal-bar.com/
+70,Kennedys,091532650,,"47 Eyre Square, Galway, H91 C1HW",https://www.facebook.com/KennedysBarEyreSquare/
+71,Kelehans Bar & Restaurant,091501513,info@kelehans.ie,"N 59, Bushypark, Galway, H91 C3K2",https://www.kelehans.ie/
+72,Trieste Café & Wine Bar,0830468241,triestegalway@gmail.com,"5 Buttermilk Walk, Middle St, Galway, H91 D2C4",http://www.triestegalway.ie/
+73,Trends (Cullinanes Inn),091522459,,"206 Upper Salthill Rd, Galway",https://www.facebook.com/TrendsSalthill/
+74,Garveys Inn,091562224,,"13 Eyre Square, Galway, H91 N6PF",http://www.garveysinn.com/
+75,Galway's Westend,,galwayswestend@gmail.com,"Galways Westend, 58 Dominick St Lower, Galway, H91 T2P3",https://galwayswestend.ie/
+76,Buddha Bar,091563749,info@asianteahouse.ie,"14 Mary St, Galway, H91 P7D6",http://www.buddhabar.ie/
+77,Bar Solo,091381200,reservations2@theconnacht.ie,"Old Dublin Rd, Galway, H91 K5DD",https://www.theconnacht.ie/en/bar-solo-galway/
+78,"Sult (Café, Bar, Restaurant, Venue)",091492671,,"Galway, H91 RTR6",https://galwayvenue.ie/home/about/
+79,Fibber Magees,091564633,,"3 Eyre Square, Galway, H91 D328",
+80,The Liquor Lounge,091563777,info@thedailbar.com,"42-44 Middle St, Galway, H91 R8W3",https://thedailbar.com/the-liquor-lounge/
+81,Paddy's Bar,091375705,,"12/14 Prospect Hill, Galway, H91 K6E4",
+82,Sophie's Rooftop Galway,091749210,bookdublin@sophies.ie,"80 Prospect Hill, Galway, H91 WR6P",https://sophies.ie/
+83,Electric Galway,,,"36 Abbeygate Street Upper, Galway, H91 W577",https://electricgalway.com/
+84,The Merlin Bar,091763522,contact@localhours.info,"THE MERLIN BAR MERLIN PARK, Co. Galway, H91 DC3W",https://oymaps.com/the-merlin-bar-carryout-off-licence-229920-web
+85,Skeffington Arms Hotel,091563173,reception@skeffington.ie,"27 Eyre Square, Galway, H91 CFX5",https://www.skeffington.ie/?utm_source=mybusiness&utm_medium=organic
+86,MacNeill's,091564041,vgately@thehardiman.ie,"Eyre Square, Galway, H91 NFD2",https://www.thehardiman.ie/hotel-dining/macneills-pub/
+87,Sangria Tapas Restaurant,0894480041,,"19 Middle St, Galway, H91 RX76",http://www.sangriagalway.com/
+88,Queen Street,0851461836,,"Queen St, Galway",
+89,Galway Arms Inn,091564555,,"65 Dominick St Lower, Galway, H91 YN30",http://galwayarmsinn.com-galway.com/
+90,Donnelly's of Barna,091592487,reservations@donnellysofbarna.com,"Freeport, Bearna, Co. Galway, H91 TD65",http://www.donnellysofbarna.com/
+91,Cava Bodega,091539884,bookings@cavarestaurant.ie,"1 Middle St, Galway, H91 AF89",http://www.cavarestaurant.ie/
+92,McSwiggans,091568917,reservations@mcswiggans.ie,"3 Eyre St, Galway",http://mcswiggans.ie/
+93,IL Vicolo,091530515,,"The Bridge Mills, Dominick St Lower, Galway, H91 R1WF",http://ilvicolo.ie/
+94,The Western Bar & Restaurant,091562834,info@westernhotelgalway.ie,"33 Prospect Hill, Galway, H91 Y3FA",https://www.westernhotelgalway.ie/bar-and-restaurant.html
+95,Osteria da Simone,091564850,Osteriaitalianagalway@gmail.com,"3 St Francis St, Galway, H91 XF1P",https://osteriaitalianagalway.com/
+96,Merchant Café & Bar,091864810,info@eyresquarehotel.com,"6 Forster St, Galway, H91 TCP0",https://www.eyresquarehotel.com/eat-drink/merchant-bar-restaurant/?utm_source=google&utm_medium=organic&utm_campaign=GMB+Merchant+
+97,Ard Bia at Nimmos,091561114,info@ardbia.com,"Spanish Arch, The Long Walk, Galway, H91 E9XA",http://www.ardbia.com/
+98,Sheridans Wine Bar & Wine Shop,091564830,info@sheridans.ie,"14 Churchyard St, Galway, H91 X2R5",http://www.sheridans.ie/
+99,The Dean Galway,091749200,hello.dublin@thedeanhotels.com,"80 Prospect Hill, Centre, Galway, H91 T9C4",https://thedeanhotels.com/locations/galway/?utm_source=google&utm_medium=organic&utm_campaign=Google-Local
+100,Atlantic Bar,091520520,info@galwaybayhotel.com,"The Promenade, Galway, H91 W295",https://www.galwaybayhotel.net/food-drink/?utm_id=9
+101,Coopers Bar & Lounge,091538212,,"Radisson Blu Hotel & Spa, Galway Lough Atalia Road, Galway, H91 CYN3",http://www.radissonhotelgalway.com/galway-restaurant-dining/coopers
+102,Martine's Restaurant and Winebar,091565662,info@martines.ie,"21 Quay St, Galway, H91 XR58",http://www.martines.ie/
+103,The Oyster Bar,,vgately@thehardiman.ie,"Eyre Square, Galway, H91 NFD2",https://www.thehardiman.ie/hotel-dining/oyster-bar/
+104,Rúibín Bar & Restaurant,091563830,info@ruibin.ie,"1 Dock Rd, Galway, H91 D7NE",http://www.ruibin.ie/
+105,Vaffanc*lo Restaurant,0877558139,joseph.offorjama@orderyoyo.com,"16, 18 Eglinton St, Galway, H91 YX62",https://vaffanclorestaurant.ie/
+106,BlackCat - wine - tapas - rooms,091501007,hello@blackcat.ie,"179 Upper Salthill Rd, Salthill, Galway, H91 WR8Y",http://www.blackcat.ie/
+107,Blackrock Cottage,091399280,enquiries@blackrockcottage.ie,"Blackrock House, Salthill, Galway",http://www.blackrockcottage.ie/
+108,Finnegans,091569963,,"2 Market St, Galway, H91 E8N5",
+109,Greens & Co.,091456617,morsel@edge-themes.com,"4 Henry St, Galway, H91 E205",https://greensofgalway.com/
+110,CAPRICE,0851018804,info@caprice.ie,"1 Church Ln, Galway, H91 YY46",http://www.caprice.ie/
+111,Peig’s Bar,,,Galway,
+112,Woozza,091330350,support@hb-themes.com,"21 Middle St, Galway, H91 YP9F",http://www.woozzasearoad.ie/
+113,Pasta Factory Restaurant & Guest Rooms,091392551,Pastafactoryrestaurant@gmail.com,"13 Mary St, Galway, H91 K4X2",http://www.pastafactoryrestaurant.com/
+114,Deli La Tasca,0851082115,delilatasca@hotmail.com,"1 Dominick St Upper, Galway, H91 XT61",https://www.delilatasca.ie/
+115,Rouge Restaurant,0879600157,rougerestaurantgalway@hotmail.com,"38 Dominick St Lower, Galway, H91 XYW0",http://www.rougegalway.com/
+116,The Huntsman Inn,091562849,INFO@HUNTSMANINN.COM,"164 College Rd, Galway, H91 D5DW",http://www.huntsmaninn.com/
+117,Chipeen (formerly Prátaí),0873408275,,"27 Shop St, Galway, H91 Y447",http://www.chipeen.ie/
+118,56 Central Restaurant Cafe,091569511,info@56central.com,"5/6 Shop St, Galway, H91 FT5D",http://www.56central.com/
+119,Dela Restaurant,091449252,letseat@dela.ie,"51 Dominick St Lower, Galway, H91 E3F1",https://dela.ie/
+120,Freddy's,091567279,info@freddys.ie,"15 Quay St, Galway",https://www.freddys.ie/

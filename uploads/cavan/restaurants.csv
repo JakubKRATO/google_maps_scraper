@@ -1,0 +1,90 @@
+id,company_name,telephone_num,email,street,website
+1,Oak Room Restaurant,0494371414,oakroomcavan@gmail.com,"24 Bridge St, Abbeyland, Cavan, H12 W866",http://www.theoakroom.ie/
+2,MacGabhann’s Cavan,0838005626,,"84/86 Main St, Townparks, Cavan, H12 P2K2",
+3,People's Restaurant,0494332667,info@peoples.ie,"Main St, Townparks, Cavan, H12 Y6E4",https://peoples.ie/
+4,Shades Bar & Grill,0858171029,shadesgrill@gmail.com,"24 Main St, Townparks, Cavan, H12 P2D5",https://www.shades-grill.ie/
+5,The Imperial Bar & Nightclub,0494373027,,"47 Main St, Townparks, Cavan",https://www.imperialbarmetric.com/
+6,Chapter One Food & Living Cavan,0494331779,hello@chaptercavan.ie,"Unit 6 Cavan Retail Park, Dublin Rd, Tullymongan Upper, Cavan, H12 R838",https://chaptercavan.ie/
+7,Coffee Corner Restaurant,,,"22 Bridge St, Lurganboy, Cavan, H12 PV32",
+8,Maudies Restaurant,0494332898,,"3 Bridge St, Townparks, Cavan, H12 XF34",
+9,Luso Casual Dining,0874538260,eatluso@gmail.com,"Behind The Black Horse Inn, 9B Church St, Abbeyland, Cavan, H12 C8P7",http://www.luso.ie/
+10,Latte Da,0876310594,latteda17@outlook.com,"1 Thomas Ashe St, Abbeyland, Cavan, H12 NY71",https://latteda.ie/
+11,Hard Boiled Egg Cafe,0494326523,contact@vuyo.me,"Dublin Rd, Townparks, Cavan, H12 X5W5",https://fipy.me/hard-boiled-egg-cafe-373704-web
+12,Harvest,0494332229,,"80 Main St, Townparks, Cavan, H12 DC65",
+13,"Murph's Gastro Pub, Derragarra Inn, Cavan",0494331033,reservations@murphsgastropub.ie,"Derragarra Inn, Derrygarra Upper, Butlers Bridge, Co. Cavan",https://murphsgastropub.ie/
+14,Chilli Lounge,0494380693,eat@chillilounge.ie,"CHILLI LOUNGE, 32 Main St, Townparks, Cavan, H12 E7D4",https://chillilounge.ie/
+15,Meadow View Inn,0494331638,info@cairnhomes.com,"Dublin Rd, Tirquin, Cavan",http://www.meadowview.ie/
+16,Indian Spice Cavan,0494355184,,"Unit 18, Newcourt Centre, Sráid an Teampaill,, Townparks, An Cabhán, H12 VW90",https://indianspiceonline.com/
+17,Cafe Mana,0494377777,,"98 Main St, Abbeyland, Cavan, H12 X7R9",
+18,The Olde Post Inn,04755555,info@theoldepostinn.com,"Knockateery, Cloverhill, Co. Cavan, H14 W577",https://www.theoldepostinn.com/
+19,Smith's Diner & Takeaway,0494365080,,"Cootehill Rd, Drumalee, Cavan",https://www.smithsdiner.ie/?utm_source=GBP.website&utm_medium=GBP&utm_campaign=smithsdiner-website
+20,The Lavey Inn,0494330577,contact@vuyo.me,"Knockanoark, Co. Cavan",https://fipy.me/the-lavey-inn-877299-web
+21,McMahons Cafe Bar,0494365484,,"97 Main St, Abbeyland, Cavan, H12 WR53",
+22,The Ghost Pepper,0498520920,,"The Hard Boiled Egg, Dublin Rd, Townparks, Cavan, H12 X5W5",https://www.ghostpepper.ie/?utm_source=GBP.website&utm_medium=GBP&utm_campaign=br10747-website
+23,MacNean House & Restaurant,0719853022,info@macneanrestaurant.com,"Main St, Tuam, Blacklion, Co. Cavan, F91 YK0F",https://www.nevenmaguire.com/
+24,The Anglers Rest,0499526391,user@domain.com,"Main St, Doon, Ballyconnell, Co. Cavan, H14 CY24",http://theanglersrest.eu/
+25,Ko's Cavan,0494326555,,"1st Floor, 61 Main St, Townparks, Cavan, H12 R6W4",http://www.kosasian.ie/
+26,The Black Horse Inn,0877607123,theblackhorseinncavan@gmail.com,"1 Church St, Kinnypottle, Cavan, H12 V207",http://theblackhorseinn.ie/
+27,Percy French Cocktail lounge & food,0494332667,info@percyscavan.ie,"Main St, Abbeyland, Cavan",https://www.percyscavan.ie/
+28,Slieve Rossa,,,"Coleman Road, Lurganboy, Cavan",
+29,Bing Bing Asian Restaurant & Takeaway,0494325188,,"1st floor, 33 Main St, Townparks, Cavan, H12 Y9V2",
+30,,,,,
+31,The Castle Sports & Gastro Bar Belturbet,0499524103,info@thecastlebelturbet.ie,"4 The Diamond, Corporation Lands, Belturbet, Co. Cavan, H14 CK85",http://www.thecastlebelturbet.ie/
+32,Cavan Crystal Hotel,0494360600,mywedding@cavancrystalhotel.com,"Dublin Rd, Pollamore Near, Cavan, H12 P6E5",http://www.cavancrystalhotel.com/
+33,The Glassworks Restaurant,0494360600,mywedding@cavancrystalhotel.com,"Pollamore Near, Cavan, H12 P6E5",https://www.cavancrystalhotel.com/the-glassworks-restaurant.html
+34,The Seven Horseshoes,0499522166,info@thesevenhorseshoes.com,"12 Main St, Corporation Lands, Belturbet, Co. Cavan",https://thesevenhorseshoes.com/
+35,The Lakeside Manor,0498548200,hello@lakesidemanor.ie,"Dublin Road, Burrenrea, Burreen, Co. Cavan, A82 YH30",http://www.lakesidemanor.ie/
+36,Adriana's Bistro & Cafe @masterpastries,0872729762,,"Unit 6, Moynehall Retail Park, Moynehall, Cavan, H12 K8W5",
+37,Hotel Kilmore,0494332288,info@hotelkilmore.ie,"Dublin Rd, Killygarry, Cavan, H12 F6Y7",http://www.hotelkilmore.ie/
+38,The Cedar Rooms,,info@farnhamestate.ie,"Farnham, Farnham Estate, Co. Cavan",https://www.farnhamestate.ie/dining/cedars-steakhouse/
+39,Lisgrey House,0498547161,,"Lisgrea, Lisgrey, Co. Cavan",https://www.facebook.com/profile.php?id=100057580962585
+40,The Masons's Apron,0498547888,,"Ramor Medical Hall, Main St, Virginia, Co. Cavan",
+41,The Stray Sod,0495553968,thestraysod@eircom.net,"Drumauna, Drung, Co. Cavan",https://thestraysodpubcavan.ie/
+42,Abbey Bar,0494331650,,"Coleman Road, Drumavanagh, Cavan",
+43,Fika33,0494304268,info@fika33.com,"Portaliff Or Townparks, Co. Cavan, H12 HR74",https://fika33.com/
+44,"The Bridge Bar, Restaurant and River view Coffee Shop",0857283035,,"Main St, Doon, Ballyconnell, Co. Cavan, H14 AD72",
+45,St. Kyran's Country House,0498547087,info@stkyrans.com,"Dublin Rd, Ballaghanea, Virginia, Co. Cavan",http://www.stkyrans.com/
+46,Datsé's Café & Cakes,0494380721,,"Market square, Abbeyland, Cavan",
+47,The Cross Restaurant & Bar,0494330106,,"R165, Clondargan, Co. Cavan",
+48,Happy Valley,0494332455,,"79 Main St, Townparks, Cavan, H12 PT82",
+49,Café Nua,0870987773,,"2 Main St, Corporation Lands, Belturbet, Co. Cavan, H14 D722",https://cafenua.ie/
+50,"Shantully Inn, Bar ~ Restaurant ~ B&B",0494337148,,"Shantully, Crossdoney, Co. Cavan",http://www.shantullyinn.com/
+51,Jolly's,0494355177,,"17 James Connolly St, Townparks, Cavan, H12 NV38",
+52,Errigal Country House Hotel,0495556901,info@errigalhotel.com,"Cavan Rd, Errigal, Cavan",https://errigalhotel.com/?utm_source=mybusiness&utm_medium=organic
+53,Top of the Town,0494365259,,"15 James Connolly St, Townparks, Cavan, H12 R8C6",
+54,Blessings Bar & Off Licence,0494331138,,"92 Main St, Abbeyland, Cavan, H12 P7D2",
+55,Iren D Cake,0852023055,,"34 Main St, Townparks, Cavan, H12 CH27",
+56,Farnham Arms Hotel,0494332577,info@farnhamarmshotel.com,"Main Street, Co. Cavan, H12 Y6E4",http://farnhamarmshotel.com/
+57,McDonald's Restaurant Cavan,0494373468,,"Pullamore Business Park, Dublin Rd, Pollamore Far, Cavan, H12 EF85",https://www.mcdonalds.com/ie/en-ie.html
+58,Willows Cafe,0498547304,,"Virginia Shopping Centre, Virginia, Co. Cavan",http://www.facebook.com/WillowsCafeVirginia/
+59,Deerpark Inn,0493893100,info@virginiaparklodge.com,"Deerpark Inn, Cavan Rd, Virginia, Co. Cavan, A82 EK51",https://www.deerparkinn.ie/?utm_source=google&utm_medium=local&utm_campaign=gmblisting
+60,Lough Bawn Hotel,0494334404,,"Main St, Portaliff Or Townparks, Killashandra, Co. Cavan, H12 ET32",
+61,Roma Takeaway,0494365559,,"17 Bridge St, Abbeyland, Cavan, H12 YV91",https://www.facebook.com/Roma-Cavan-Town-190536310990789/
+62,Casey's Steak Bar,0494337105,,"Main St, Bellananagh, Ballinagh, Co. Cavan",
+63,The Royal Bar,0498553479,,"Stradone St, Cornahilt, Ballyjamesduff, Co. Cavan",
+64,Chaska Spice,0494304069,,"8 James Connolly St, Townparks, Cavan, H12 D620",https://chaskaspice.ie/
+65,The Ballymac Inn,,,"Ballymagauran, Ballymagovern, Co. Cavan",
+66,Sean's Diner Cootehill,0495555071,,"Sean's diner, Munnilly, Cootehill, Co. Cavan, H16 VY68",
+67,Dragon Inn Cavan,0494361640,,"61 Main St, Townparks, Cavan, H12 R6W4",https://www.dragoninncavan.ie/
+68,Town Diner,0857285010,contact@vuyo.me,"Granard St, Moodoge, Ballyjamesduff, Co. Cavan",https://fipy.me/town-diner-713727-web
+69,Bayleaf Restaurant,0499526277,,"Main St, Doon, Ballyconnell, Co. Cavan",
+70,Insomnia Coffee Company - Cavan,0494311200,info@insomnia.ie,"1 Main St, Kinnypottle, Cavan, H12 VY47",https://www.insomnia.ie/
+71,Otean Asian Restaurant & Takeaway,0494360088,,"H12 A9W2, County Cavan, Main St, First floor",
+72,Picardie Artisan Bakery,,,"Kinnypottle, Cavan",
+73,INDIAN TANDOORI RESTAURANT. Virginia. Cavan,0498546065,,"Main St, Virginia, Co. Cavan, A82 F384",https://indiantandoorivirginia.ie/
+74,KFC Cavan - Lakeland Retail Park,0212127290,,"Lakeland Retail Park, Dublin Rd, Pollamore Near, Cavan, H12 PK29",https://www.kfc.ie/kfc-near-me/cavan-lakeland-retail-park?utm_source=uberall&utm_medium=organic&utm_term=Cavan-Lakeland-Retail-Park
+75,"Farnham Estate Spa and Golf Resort, Cavan",0494377700,info@farnhamestate.ie,"Paddock, Co. Cavan",http://www.farnhamestate.ie/
+76,Ong Lai Asian Street Food,0494326544,,"81 Main St, Townparks, Cavan, H12 Y279",https://www.onglai.ie/?utm_source=GBP.website&utm_medium=GBP&utm_campaign=fd19773-website
+77,Dunne's Bar,,,"71 Main St, Townparks, Cavan, H12 D6P8",
+78,Breffni Arms Hotel,0494335127,info@breffniarms.com,"6-12, 6-12 Main St, Drumalt, Arvagh, Co. Cavan, H12 CP38",http://www.breffniarms.com/
+79,The Tank Bar,0494332364,,"Denncross, Carrickaboy, Co. Cavan",
+80,Ali Kebabish,0494362133,,"34 Main St, Townparks, Cavan, H12 D2V6",https://alikebabish.ie/
+81,Tillie's Tea Rooms,0863606708,,"Main street, Bellananagh, Ballinagh, Co. Cavan",http://www.facebook.com/Tillies-Tea-Rooms-218007015428872/
+82,The Best Chinese Takeaway,0494365322,,"62A Main St, Townparks, Cavan, H12 E400",http://www.thebestchinese.ie/
+83,Mizzoni's Pizza - Cavan,0494369595,info@mizzoni.ie,"8-10 College St, Lurganboy, Cavan, H12 HX36",https://mizzoni.ie/
+84,Farnham Estate,,,"Farnham, Cavan",https://farnhamestate.hotelc2.top/
+85,Cavan Equestrian Centre,0494332017,,"Latt, Co. Cavan",http://www.cavanequestrian.com/
+86,Railway Bar,0499522372,,"4 The Diamond, Corporation Lands, H14DA32, Co. Cavan",
+87,County Cavan,,,,
+88,"Pizza Max Cavan - Cavan, Ireland",0494371498,,"84 Main St, Townparks, Cavan, H12 P2K2",https://www.pizzamax.ie/
+89,Turkish Grill Takeaway,0830120643,,"33 Main St, Abbeyland, Cavan, H12 Y9V2",https://turkishgrill.ie/

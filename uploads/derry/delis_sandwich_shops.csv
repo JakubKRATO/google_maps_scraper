@@ -1,0 +1,65 @@
+id,company_name,telephone_num,email,street,website
+1,The Sandwich Co,+442871372500,%20hello@thesandwich.co,"6 Bishop Street Within, Londonderry BT48 6HP, United Kingdom",http://www.thesandwich.co/
+2,Salumeria Mariuccia,,,"28 The Diamond, Londonderry BT48 6HP, United Kingdom",https://www.instagram.com/salumeriamariuccia/
+3,The Sandwich Company,+442871313171,%20hello@thesandwich.co,"33 Spencer Rd, Londonderry BT47 6QQ, United Kingdom",http://www.thesandwich.co/
+4,City Home Bakery,+442871260858,,"5 Sackville St, Londonderry BT48 7BQ, United Kingdom",
+5,The Sandwich Co,+442871312728,%20hello@thesandwich.co,"Lisnagelvin Shopping Centre, Lisnagelvin Rd, Londonderry BT47 6DF, United Kingdom",http://www.thesandwich.co/
+6,Flappy's Deli,+442871293129,,"37 Clooney Terrace, Londonderry BT47 6JS, United Kingdom",https://www.facebook.com/p/Flappys-Deli-100083692112930/
+7,The Crusty Bap,+442871374434,,"Beechwood Ave, Londonderry BT48 9LS, United Kingdom",
+8,Moran's Centra Strand Road,+442871282822,catering@moranscaterers.co.uk,"139 Strand Rd, Londonderry BT48 7PB, United Kingdom",https://morans.com/
+9,The Coffee Tree,,,"49 Strand Rd, Londonderry BT48 7BN, United Kingdom",https://www.facebook.com/462253977258517
+10,Mc Ginleys Spar,+442871360101,accounts@mcginleysoil.com,"20 Buncrana Rd, Londonderry BT48 8AB, United Kingdom",https://mcginleysoil.com/
+11,Centra Waterloo Place,+442871364226,,"16 Waterloo Pl, Londonderry BT48 6BU, United Kingdom",
+12,The Sandwich Company,,,"Rathmore Business Park, Blighs Ln, Londonderry BT48 0LZ, United Kingdom",
+13,Paul's Butchers,+442871373175,user@domain.com,"23 Culmore Rd, Londonderry BT48 8JB, United Kingdom",https://www.paulsbutchers.com/
+14,William Street Stores,+442871369659,,"Londonderry BT48 7AZ, United Kingdom",
+15,Jamm,+442871414041,,"13 Shipquay St, Londonderry BT48 6DJ, United Kingdom",
+16,The Scullery Cafe,+442871229081,,"48 Waterloo St, Londonderry BT48 6HF, United Kingdom",
+17,Corner Deli,0838621118,,"Upper Main St, Ardaravan, Buncrana, Co. Donegal",https://facebook.com/The-Corner-DELi-1054579511296928/
+18,The Bakery Ebrington,+442871876322,info@thebakeryebrington.com,"102 Hill Avenue, Ebrington St, Londonderry BT47 6HF, United Kingdom",http://www.thebakeryebrington.com/
+19,Avenue 17 (Shantallow),+442871519247,,"68 Racecourse Rd, Londonderry BT48 8DS, United Kingdom",
+20,WHITES NEWS AND VIEWS,+442871372639,whitesdeliandshop@gmail.com,"2A Westland St, Londonderry BT48 9ES, United Kingdom",https://whitesnews.touchtakeaway.net/menu
+21,Kilo X Enterprises,+442871782268,mrbaristacoffee21@gmail.com,"2 Melvin Ct, Limavady Rd, Londonderry BT47 6HZ, United Kingdom",https://kiloxenterprises.square.site/
+22,Dohertys Home Bakery,+442871229303,,"Whitehouse Retail, Whitehouse Retail Park, 65 Buncrana Rd, Londonderry BT48 8LB, United Kingdom",
+23,Pauls Butchers,+442871348453,user@domain.com,"Shopping Centre, Trench Rd, Londonderry BT47 2DT, United Kingdom",http://www.paulsbutchers.com/
+24,Pyke 'N' Pommes (POD on the Riverfront),+447743892108,,"N124, Strand Rd, Londonderry BT48 7NS, United Kingdom",https://pykenpommes.app/
+25,Mac's Deli,0749125885,user@domain.com,"High Rd, Ballyboe Glencar, Letterkenny, Co. Donegal, F92 K4WP",http://www.macsdeli.ie/
+26,Grab and Go,+447519287022,eoin.burke@orderyoyo.com,"120 Duncreggan Rd, Londonderry BT48 7PU, United Kingdom",https://grabandgotakeaway.co.uk/
+27,Centra Foodmarket Derry Creggan Road,+442871372348,,"County, The Link Service Station, 180 Creggan Rd, Londonderry BT48 0RX, United Kingdom",
+28,Nisa Local,+442871261372,,"65 Buncrana Rd, Londonderry BT48 8LB, United Kingdom",https://www.nisalocally.co.uk/stores/county-londonderry/londonderry/65-buncrana-rd
+29,Craig's Costcutter,+442871341059,customerservices@costcutter.com,"20 Crescent Link, Waterside, Londonderry BT47 5AB, United Kingdom",http://www.costcutter.com/
+30,Doherty’s Food Fare,+442871362639,,"144 Bishop St, Londonderry BT48 6UQ, United Kingdom",https://linktr.ee/Dohertys_BishopStreet
+31,Centraderry,+442871363026,,"50 Buncrana Rd, Londonderry BT48 8LB, United Kingdom",
+32,Vivo,+447928053898,,"24 26 Spencer Rd, Londonderry BT47 6QQ, United Kingdom",
+33,Long's Supervalu - Woodburn,+442871341438,,"Blackburn Cres, Londonderry BT47 5QG, United Kingdom",
+34,SPAR Northland Road,+442871268395,,"130 Northland Rd, Londonderry BT48 0LX, United Kingdom",https://www.spar-ni.co.uk/store-locator-ni/hen74906-spar-northland-road
+35,Long's Supervalu - Strand Road,+442871266418,,"141 Strand Rd, Londonderry BT48 7PW, United Kingdom",
+36,EUROSPAR Skeoge,+442871351124,,"1 Glenabbey Dr, Londonderry BT48 8LX, United Kingdom",https://www.spar-ni.co.uk/store-locator-ni/hen88091-eurospar-skeoge-1
+37,Moran's Specialist Caterers,+442871273000,catering@moranscaterers.co.uk,"2nd floor, 139C Strand Rd, Londonderry BT48 7PB, United Kingdom",http://morans.com/catering
+38,Tasty Nosh Deli,+447796597694,seamus.girvan@orderyoyo.com,"8 Church Ln, Belfast BT1 4QN, United Kingdom",https://tastynoshdeli.co.uk/?utm_source=GMBwebsite&utm_medium=organic&utm_campaign=Google%20My%20Business
+39,The Counter Deli,0749120075,info@thecounterdeli.com,"Canal Road, Letterkenny, Co. Donegal, F92 E8ND",http://www.thecounterdeli.com/
+40,"Gallaghers Butchers, Bakery & Deli",+442871382324,,"Unit 9-10, Pavilion Retail Park, Railway St, Strabane BT82 8EQ, United Kingdom",
+41,Subway,+442871363111,,"Units 11 & 12, SC, Quayside Shopping centre, Quayside SC, Strand Rd, Londonderry BT48 7PX, United Kingdom",https://restaurants.subway.com/united-kingdom/ni/londonderry/quayside-sc-strand-rd?utm_source=yxt-goog&utm_medium=local&utm_term=acq&utm_content=56121&utm_campaign=evergreen-2020&y_source=1_MTQ5MjQyMjEtNzE1LWxvY2F0aW9uLndlYnNpdGU%3D
+42,The Sandwich Company,0749120195,%20hello@thesandwich.co,"Neil T Blaney Rd, Drumnahoagh, Letterkenny, Co. Donegal",http://www.thesandwich.co/
+43,Shipquay Restaurant,+442871267266,info@shipquayhotel.com,"15-17 Shipquay St, Londonderry BT48 6DJ, United Kingdom",https://www.shipquayhotel.com/restaurant.html
+44,Mekong,+442871670133,,"7-8 Magazine St, Londonderry BT48 6HJ, United Kingdom",https://www.facebook.com/MekongSF/
+45,The Garden Deli,+447547361888,,"Units 29, Enterprise Centre, 2 Coalisland Rd, Dungannon BT71 6JT, United Kingdom",
+46,Sawers,+442890322021,template.placeholder@gmail.com,"Fountain Centre, College St, Belfast BT1 6ES, United Kingdom",http://www.sawersbelfast.com/
+47,SPAR Strathfoyle,+442871865965,,"1, Strathfoyle Village Centre, Temple Rd, Strathfoyle, Londonderry BT47 6TY, United Kingdom",https://www.spar-ni.co.uk/store-locator-ni/hen65527-spar-strathfoyle
+48,Casa Cafe & Deli,,,"Main Street, Dunfanaghy, Co. Donegal, F92 VH6R",https://www.instagram.com/casacafeanddeli/
+49,VIVO ESSENTIALS - Top Of The Hill,+442888888888,,"92 Strabane Old Rd, Londonderry BT47 2EG, United Kingdom",
+50,SPAR Church Meadows,+442871329002,,"16 Rossdowney Rd, Londonderry BT47 6DE, United Kingdom",https://www.spar-ni.co.uk/store-locator-ni/hen76312-spar-church-meadows
+51,EUROSPAR Hatfield,+442871276690,,"155 Creggan Rd, Londonderry BT48 0JJ, United Kingdom",https://www.spar-ni.co.uk/store-locator-ni/hen65409-eurospar-hatfield
+52,McColgan's Foodhall,+442871383031,orders@mccolgansfoodhall.com,"61 Main St, Strabane BT82 8AU, United Kingdom",https://mccolgansfoodhall.com/
+53,SPAR Ballynagard Road Culmore,+442871417883,,"2 Ballynagard Rd, Londonderry BT48 8JR, United Kingdom",https://www.spar-ni.co.uk/store-locator-ni/hen73682-spar-culmore
+54,Silver Street Derry,+442871371965,Info@RiverInn1684.com,"34-38 Shipquay St, Londonderry BT48 6DW, United Kingdom",http://www.riverinn1684.com/silver-street/
+55,Subway,+442871368368,,"Unit 1, Davinci Complex, Culmore Rd, Orchard Street, Londonderry BT48 8JB, United Kingdom",https://restaurants.subway.com/united-kingdom/ni/londonderry/unit-1-davinci-complex-culmore-road?utm_source=yxt-goog&utm_medium=local&utm_term=acq&utm_content=40725&utm_campaign=evergreen-2020&y_source=1_MTQ5MjYzNDMtNzE1LWxvY2F0aW9uLndlYnNpdGU%3D
+56,Downey's Butcher & Deli,+442830262655,,"10 Monaghan St, Newry BT35 6AA, United Kingdom",http://www.downeysnewry.com/
+57,Costcutter,+442871262219,customerservices@costcutter.com,"100 Beechwood Ave, Londonderry BT48 9LS, United Kingdom",https://www.costcutter.co.uk/
+58,Quaywest Wine Bar & Restaurant,+442871370977,info@quaywestderry.com,"28 Boating Club Ln, Londonderry BT48 7QB, United Kingdom",https://www.quaywestderry.com/
+59,The Wig & Gown Restaurant,+442871140300,reservations@bishopsgatehotelderry.com,"24 Bishop St, Londonderry BT48 6PP, United Kingdom",http://www.bishopsgatehotelderry.com/
+60,Thyme Deli,+442890571205,seamus.girvan@orderyoyo.com,"13 Church Ln, Belfast BT1 4QN, United Kingdom",https://thymedelibelfast.com/?utm_source=GMBwebsite&utm_medium=organic&utm_campaign=Google%20My%20Business
+61,Browns In Town,+442871362889,eat@brownsintown.com,"21 Strand Rd, Londonderry BT48 7BJ, United Kingdom",https://www.brownsintown.com/
+62,Subway,+442871318871,,"Lisnagelvin Shopping Unit 5, Londonderry BT47 6DF, United Kingdom",https://restaurants.subway.com/united-kingdom/ni/londonderry/lisnagelvin-shopping?utm_source=yxt-goog&utm_medium=local&utm_term=acq&utm_content=47445&utm_campaign=evergreen-2020&y_source=1_MTQ5MjYzNDItNzE1LWxvY2F0aW9uLndlYnNpdGU%3D
+63,Subway,+442871365442,,"1, Whitehouse Retail Park, Unit 1 Buncrana Rd, Londonderry BT48 8LB, United Kingdom",https://restaurants.subway.com/united-kingdom/ni/londonderry/unit-1-whitehouse-retail-park-buncrana-road?utm_source=yxt-goog&utm_medium=local&utm_term=acq&utm_content=46141&utm_campaign=evergreen-2020&y_source=1_MTQ5MjUyODMtNzE1LWxvY2F0aW9uLndlYnNpdGU%3D
+64,LaMi James St. Deli,,,"Great James St, Ballynally, Moville, Co. Donegal",
