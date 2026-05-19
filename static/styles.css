@@ -77,6 +77,13 @@ label {
   font-weight: 700;
 }
 
+.hint {
+  color: var(--muted);
+  font-size: 0.82rem;
+  font-weight: 500;
+  line-height: 1.4;
+}
+
 input[type="text"],
 input[type="number"] {
   width: 100%;
@@ -182,11 +189,82 @@ button:disabled {
 
 .town-results {
   display: grid;
-  gap: 10px;
+  gap: 14px;
 }
 
 .town-results[hidden] {
   display: none;
+}
+
+.query-job {
+  display: grid;
+  gap: 10px;
+  border: 1px solid var(--line);
+  border-left: 5px solid #99a6b5;
+  border-radius: 8px;
+  padding: 12px;
+  background: #fff;
+}
+
+.query-job--running {
+  border-left-color: #3b82f6;
+}
+
+.query-job--completed {
+  border-left-color: var(--accent);
+}
+
+.query-job--failed {
+  border-left-color: var(--danger);
+}
+
+.query-job__header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 12px;
+}
+
+.query-job__title {
+  margin: 0;
+  font-size: 1rem;
+  line-height: 1.25;
+  font-weight: 800;
+}
+
+.query-job__meta {
+  color: var(--muted);
+  font-size: 0.88rem;
+  font-weight: 700;
+}
+
+.query-job__track {
+  width: 100%;
+  height: 8px;
+  overflow: hidden;
+  border-radius: 999px;
+  background: #e6ebf0;
+}
+
+.query-job__bar {
+  width: 0%;
+  height: 100%;
+  border-radius: inherit;
+  background: var(--accent);
+  transition: width 180ms ease;
+}
+
+.query-job--running .query-job__bar {
+  background: #3b82f6;
+}
+
+.query-job--failed .query-job__bar {
+  background: var(--danger);
+}
+
+.query-job__towns {
+  display: grid;
+  gap: 10px;
 }
 
 .town-result {
@@ -293,6 +371,11 @@ button:disabled {
 
   .town-result {
     grid-template-columns: 1fr;
+  }
+
+  .query-job__header {
+    flex-direction: column;
+    align-items: flex-start;
   }
 
   .town-result__link {

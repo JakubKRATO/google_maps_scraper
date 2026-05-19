@@ -20,10 +20,26 @@ function formatStatus(status) {
   return status.charAt(0).toUpperCase() + status.slice(1);
 }
 
+function parseCommaInput(value) {
+  return String(value || "")
+    .split(",")
+    .map((item) => item.trim())
+    .filter(Boolean);
+}
+
+function countRequestedQueries() {
+  const queries = parseCommaInput(form.elements.query.value);
+  return Math.max(1, queries.length);
+}
+
 function countRequestedTowns() {
-  const rawLocation = String(form.elements.location.value || "");
-  const towns = rawLocation.split(",").map((town) => town.trim()).filter(Boolean);
+  const towns = parseCommaInput(form.elements.location.value);
   return Math.max(1, towns.length);
+}
+
+function toNumber(value, fallback = 0) {
+  const number = Number(value);
+  return Number.isFinite(number) ? number : fallback;
 }
 
 function resetTownResults() {
@@ -32,53 +48,177 @@ function resetTownResults() {
   townResults.hidden = true;
 }
 
-function renderTownResults() {
-  const towns = Array.from(townsById.values()).sort((first, second) => {
-    const firstIndex = Number(String(first.id || "").split("-", 1)[0]);
-    const secondIndex = Number(String(second.id || "").split("-", 1)[0]);
-    return firstIndex - secondIndex;
-  });
-
-  townResults.replaceChildren();
-  townResults.hidden = towns.length === 0;
+function summarizeQuery(towns) {
+  let scraped = 0;
+  let collected = 0;
+  let total = 0;
+  let completedTowns = 0;
+  let failedTowns = 0;
+  let hasActive = false;
 
   for (const town of towns) {
-    const item = document.createElement("div");
-    item.className = `town-result town-result--${town.status || "queued"}`;
+    const status = String(town.status || "queued");
+    scraped += toNumber(town.scraped);
+    collected += toNumber(town.collected || town.scraped);
+    total += toNumber(town.total);
+    if (status === "completed") {
+      completedTowns += 1;
+    } else if (status === "failed") {
+      failedTowns += 1;
+    }
+    if (ACTIVE_STATUSES.includes(status)) {
+      hasActive = true;
+    }
+  }
 
-    const details = document.createElement("div");
-    details.className = "town-result__details";
+  const totalTowns = towns.length;
+  const finishedTowns = completedTowns + failedTowns;
+  let status = "queued";
+  if (totalTowns > 0 && finishedTowns === totalTowns) {
+    status = completedTowns === 0 ? "failed" : "completed";
+  } else if (hasActive || finishedTowns > 0) {
+    status = "running";
+  }
 
-    const name = document.createElement("strong");
-    name.textContent = town.name || town.search_text || "Town";
+  let percent = 0;
+  if (status === "completed" || status === "failed") {
+    percent = 100;
+  } else if (total > 0) {
+    percent = Math.min(99, Math.round((scraped / total) * 100));
+  } else if (totalTowns > 0) {
+    percent = Math.min(99, Math.round((finishedTowns / totalTowns) * 100));
+  }
 
-    const meta = document.createElement("span");
-    const scraped = Number(town.scraped || 0);
-    const total = Number(town.total || 0);
-    meta.textContent = `${formatStatus(String(town.status || "queued"))} - ${scraped} / ${total}`;
+  return {
+    status,
+    percent,
+    scraped,
+    collected,
+    total,
+    completedTowns,
+    failedTowns,
+    totalTowns,
+    finishedTowns,
+  };
+}
 
-    details.append(name, meta);
-    item.append(details);
-
-    if (town.status === "completed" && town.download_url) {
-      const link = document.createElement("a");
-      link.href = town.download_url;
-      link.textContent = "Download CSV";
-      link.className = "town-result__link";
-      item.append(link);
-    } else if (town.status === "failed") {
-      const error = document.createElement("span");
-      error.className = "town-result__error";
-      error.textContent = town.error || "Failed";
-      item.append(error);
-    } else {
-      const pending = document.createElement("span");
-      pending.className = "town-result__pending";
-      pending.textContent = town.message || "Waiting";
-      item.append(pending);
+function buildQueryGroups() {
+  const towns = Array.from(townsById.values()).sort((first, second) => {
+    const firstQuery = toNumber(first.query_index, 1);
+    const secondQuery = toNumber(second.query_index, 1);
+    if (firstQuery !== secondQuery) {
+      return firstQuery - secondQuery;
     }
 
-    townResults.append(item);
+    const firstTown = toNumber(first.town_index, 1);
+    const secondTown = toNumber(second.town_index, 1);
+    if (firstTown !== secondTown) {
+      return firstTown - secondTown;
+    }
+
+    return String(first.id || "").localeCompare(String(second.id || ""));
+  });
+
+  const groupsById = new Map();
+  for (const town of towns) {
+    const queryId = String(town.query_id || `query-${town.query_index || 1}`);
+    const queryIndex = toNumber(town.query_index, 1);
+    const queryText = String(town.query || "").trim();
+    const queryLabel = queryText || town.search_text || "Search query";
+
+    if (!groupsById.has(queryId)) {
+      groupsById.set(queryId, {
+        id: queryId,
+        queryIndex,
+        queryLabel,
+        towns: [],
+      });
+    }
+    groupsById.get(queryId).towns.push(town);
+  }
+
+  return Array.from(groupsById.values()).sort((first, second) => first.queryIndex - second.queryIndex);
+}
+
+function createTownRow(town) {
+  const item = document.createElement("div");
+  item.className = `town-result town-result--${town.status || "queued"}`;
+
+  const details = document.createElement("div");
+  details.className = "town-result__details";
+
+  const name = document.createElement("strong");
+  name.textContent = town.name || town.search_text || "Town";
+
+  const meta = document.createElement("span");
+  const scraped = toNumber(town.scraped);
+  const total = toNumber(town.total);
+  meta.textContent = `${formatStatus(String(town.status || "queued"))} - ${scraped} / ${total}`;
+
+  details.append(name, meta);
+  item.append(details);
+
+  if (town.status === "completed" && town.download_url) {
+    const link = document.createElement("a");
+    link.href = town.download_url;
+    link.textContent = "Download CSV";
+    link.className = "town-result__link";
+    item.append(link);
+  } else if (town.status === "failed") {
+    const error = document.createElement("span");
+    error.className = "town-result__error";
+    error.textContent = town.error || "Failed";
+    item.append(error);
+  } else {
+    const pending = document.createElement("span");
+    pending.className = "town-result__pending";
+    pending.textContent = town.message || "Waiting";
+    item.append(pending);
+  }
+
+  return item;
+}
+
+function renderTownResults() {
+  const groups = buildQueryGroups();
+  townResults.replaceChildren();
+  townResults.hidden = groups.length === 0;
+
+  for (const group of groups) {
+    const summary = summarizeQuery(group.towns);
+    const section = document.createElement("section");
+    section.className = `query-job query-job--${summary.status}`;
+
+    const header = document.createElement("div");
+    header.className = "query-job__header";
+
+    const title = document.createElement("h3");
+    title.className = "query-job__title";
+    title.textContent = `Job ${group.queryIndex}: ${group.queryLabel}`;
+
+    const meta = document.createElement("span");
+    meta.className = "query-job__meta";
+    meta.textContent = `${formatStatus(summary.status)} - towns ${summary.finishedTowns}/${summary.totalTowns} - results ${summary.scraped}/${summary.total}`;
+
+    header.append(title, meta);
+    section.append(header);
+
+    const queryTrack = document.createElement("div");
+    queryTrack.className = "query-job__track";
+    const queryBar = document.createElement("div");
+    queryBar.className = "query-job__bar";
+    queryBar.style.width = `${summary.percent}%`;
+    queryTrack.append(queryBar);
+    section.append(queryTrack);
+
+    const townsGrid = document.createElement("div");
+    townsGrid.className = "query-job__towns";
+    for (const town of group.towns) {
+      townsGrid.append(createTownRow(town));
+    }
+
+    section.append(townsGrid);
+    townResults.append(section);
   }
 }
 
@@ -170,21 +310,32 @@ function createSocketClient() {
 }
 
 function setProgress(progress) {
-  const percent = Math.max(0, Math.min(100, Number(progress.percent || 0)));
-  const scraped = Number(progress.scraped || 0);
-  const total = Number(progress.total || 0);
-  const collected = Number(progress.collected || 0);
+  const percent = Math.max(0, Math.min(100, toNumber(progress.percent)));
+  const scraped = toNumber(progress.scraped);
+  const total = toNumber(progress.total);
+  const collected = toNumber(progress.collected);
   const status = String(progress.status || "queued");
-  const completedTowns = Number(progress.completed_towns || 0);
-  const failedTowns = Number(progress.failed_towns || 0);
-  const totalTowns = Number(progress.total_towns || 1);
-  const townProgress = totalTowns > 1 ? ` - ${completedTowns + failedTowns}/${totalTowns} towns` : "";
+  const completedTowns = toNumber(progress.completed_towns);
+  const failedTowns = toNumber(progress.failed_towns);
+  const totalTowns = Math.max(1, toNumber(progress.total_towns, 1));
+  const completedQueries = toNumber(progress.completed_queries);
+  const totalQueries = Math.max(1, toNumber(progress.total_queries, 1));
+  const currentQueryIndex = toNumber(progress.current_query_index);
 
   if (Array.isArray(progress.towns)) {
     progress.towns.forEach(upsertTown);
   }
 
-  progressStatus.textContent = `${formatStatus(status)}${townProgress}`;
+  const townsDone = completedTowns + failedTowns;
+  const townProgressText = totalTowns > 1 ? ` - towns ${townsDone}/${totalTowns}` : "";
+  const queryProgressText =
+    totalQueries > 1 && ACTIVE_STATUSES.includes(status) && currentQueryIndex > 0
+      ? ` - job ${currentQueryIndex}/${totalQueries}`
+      : totalQueries > 1
+        ? ` - jobs ${completedQueries}/${totalQueries}`
+        : "";
+
+  progressStatus.textContent = `${formatStatus(status)}${queryProgressText}${townProgressText}`;
   progressCount.textContent = `${scraped} / ${total}`;
   progressTrack.setAttribute("aria-valuenow", String(percent));
   progressBar.style.width = `${percent}%`;
@@ -266,18 +417,20 @@ form.addEventListener("submit", async (event) => {
   activeJobId = "";
   resetTownResults();
 
+  const requestedQueries = countRequestedQueries();
   const requestedTowns = countRequestedTowns();
-  const maxResults = Number(form.elements.max_results.value || 0);
+  const maxResults = toNumber(form.elements.max_results.value);
   progressPanel.hidden = false;
   downloadLink.hidden = true;
   startButton.disabled = true;
   setProgress({
     status: "queued",
-    message: "Queued.",
+    message: `Queued ${requestedQueries} query job(s) across ${requestedQueries * requestedTowns} town scrape(s).`,
     scraped: 0,
     collected: 0,
-    total: maxResults * requestedTowns,
-    total_towns: requestedTowns,
+    total: maxResults * requestedTowns * requestedQueries,
+    total_towns: requestedTowns * requestedQueries,
+    total_queries: requestedQueries,
     percent: 0,
   });
 

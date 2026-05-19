@@ -4,7 +4,7 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>Google Maps CSV Scraper</title>
-    <link rel="stylesheet" href="{{ url_for('static', filename='styles.css') }}?v=town-batch">
+    <link rel="stylesheet" href="{{ url_for('static', filename='styles.css') }}?v=query-batch">
   </head>
   <body>
     <main class="shell">
@@ -21,14 +21,17 @@
 
         <form id="scrape-form" action="{{ url_for('scrape') }}" method="post" data-start-url="{{ url_for('scrape_start') }}">
           <label>
-            Search query
+            Search queries
             <input
               name="query"
               type="text"
-              placeholder="coffee shops"
+              placeholder="coffee shops, dentists"
               value="{{ form.get('query', '') if form else '' }}"
               required
             >
+            <small class="hint">
+              Separate multiple queries with commas. Example: coffee shops, dentists, bars.
+            </small>
           </label>
 
           <label>
@@ -39,6 +42,22 @@
               placeholder="Bratislava, Trnava, Kosice"
               value="{{ form.get('location', '') if form else '' }}"
             >
+            <small class="hint">
+              Separate towns with commas. Each query is run across all listed towns in order.
+            </small>
+          </label>
+
+          <label>
+            Country
+            <input
+              name="country"
+              type="text"
+              placeholder="Slovakia"
+              value="{{ form.get('country', '') if form else '' }}"
+            >
+            <small class="hint">
+              Every Google Maps search is built as: [SHOP_NAME] [TOWN] [COUNTRY].
+            </small>
           </label>
 
           <label>
@@ -61,6 +80,20 @@
               max="100"
               value="{{ form.get('batch_size', '50') if form else '50' }}"
             >
+          </label>
+
+          <label>
+            Parallel towns per job
+            <input
+              name="parallel_towns"
+              type="number"
+              min="1"
+              max="12"
+              value="{{ form.get('parallel_towns', '3') if form else '3' }}"
+            >
+            <small class="hint">
+              Default is 3. Each query job runs up to this many towns at the same time.
+            </small>
           </label>
 
           <div class="switches">
@@ -103,6 +136,6 @@
         </section>
       </section>
     </main>
-    <script src="{{ url_for('static', filename='app.js') }}?v=town-batch"></script>
+    <script src="{{ url_for('static', filename='app.js') }}?v=query-batch"></script>
   </body>
 </html>

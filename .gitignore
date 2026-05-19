@@ -4,4 +4,3 @@ __pycache__
 *.csv
 *.log
 .env
-uploads/

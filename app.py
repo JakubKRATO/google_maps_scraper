@@ -5,6 +5,7 @@ import io
 import os
 import re
 import time
+from concurrent.futures import ThreadPoolExecutor, as_completed
 from dataclasses import asdict, replace
 from pathlib import Path
 from threading import Lock
@@ -28,6 +29,7 @@ JOBS: dict[str, dict[str, Any]] = {}
 JOBS_LOCK = Lock()
 JOB_TTL_SECONDS = 60 * 60
 ACTIVE_STATUSES = {"queued", "running", "starting", "opening", "searching", "collecting", "scraping"}
+DEFAULT_PARALLEL_TOWNS = 3
 
 
 def clean_filename(value: str) -> str:
@@ -102,44 +104,76 @@ def request_checkbox(name: str, default: bool = True) -> bool:
 
 def split_towns(location: str) -> list[str]:
     towns = [town.strip() for town in location.split(",") if town.strip()]
-    return towns or [location.strip()]
+    return towns or [""]
 
 
-def build_search_targets(query: str, location: str) -> list[dict[str, str]]:
+def split_queries(query_input: str) -> list[str]:
+    return [query.strip() for query in query_input.split(",") if query.strip()]
+
+
+def build_search_targets(queries: list[str], location: str, country: str) -> list[dict[str, Any]]:
     towns = split_towns(location)
-    targets: list[dict[str, str]] = []
-    for index, town in enumerate(towns, start=1):
-        search_text = f"{query} {town}".strip()
-        town_name = town or "No location"
-        town_slug = clean_filename(town_name)
-        targets.append(
-            {
-                "id": f"{index}-{town_slug}",
-                "name": town_name,
-                "search_text": search_text,
-                "filename": query_filename(query),
-            }
-        )
+    targets: list[dict[str, Any]] = []
+    query_occurrences: dict[str, int] = {}
+    for query_index, query in enumerate(queries, start=1):
+        query_slug = clean_filename(query)
+        query_occurrences[query_slug] = query_occurrences.get(query_slug, 0) + 1
+        query_occurrence = query_occurrences[query_slug]
+        filename = query_filename(query)
+        if query_occurrence > 1:
+            stem, dot, suffix = filename.rpartition(".")
+            if dot:
+                filename = f"{stem}_{query_occurrence}.{suffix}"
+            else:
+                filename = f"{filename}_{query_occurrence}"
+
+        for town_index, town in enumerate(towns, start=1):
+            search_parts = [query, town, country]
+            search_text = " ".join(part.strip() for part in search_parts if part and part.strip())
+            town_name = town or "No location"
+            town_slug = clean_filename(town_name)
+            targets.append(
+                {
+                    "id": f"q{query_index}-t{town_index}-{town_slug}",
+                    "name": town_name,
+                    "search_text": search_text,
+                    "filename": filename,
+                    "query": query,
+                    "query_id": f"q{query_index}-{query_slug}",
+                    "query_index": query_index,
+                    "town_index": town_index,
+                    "country": country,
+                }
+            )
     return targets
 
 
-def scrape_request_config() -> tuple[list[dict[str, str]], ScrapeConfig]:
-    query = request.values.get("query", "").strip()
+def scrape_request_config() -> tuple[list[dict[str, Any]], ScrapeConfig]:
+    query_input = request.values.get("query", "").strip()
     location = request.values.get("location", "").strip()
+    country = request.values.get("country", "").strip()
     max_results = request_int("max_results", default=10, minimum=1, maximum=1000)
     batch_size = request_int("batch_size", default=50, minimum=1, maximum=100)
     include_emails = request_checkbox("include_emails", default=True)
     headless = not request_checkbox("show_browser", default=False)
+    queries = split_queries(query_input)
 
-    if not query:
-        raise ValueError("Enter a search query, for example 'dentists' or 'coffee shops'.")
+    if not queries:
+        raise ValueError(
+            "Enter at least one search query, for example 'dentists' or 'coffee shops'. "
+            "You can separate multiple queries with commas."
+        )
 
-    return build_search_targets(query, location), ScrapeConfig(
+    return build_search_targets(queries, location, country), ScrapeConfig(
         max_results=max_results,
         batch_size=batch_size,
         include_emails=include_emails,
         headless=headless,
     )
+
+
+def request_parallel_towns() -> int:
+    return request_int("parallel_towns", default=DEFAULT_PARALLEL_TOWNS, minimum=1, maximum=12)
 
 
 def public_town(job_id: str, town: dict[str, Any]) -> dict[str, Any]:
@@ -154,6 +188,11 @@ def public_town(job_id: str, town: dict[str, Any]) -> dict[str, Any]:
         "id": town.get("id", ""),
         "name": town.get("name", ""),
         "search_text": town.get("search_text", ""),
+        "country": town.get("country", ""),
+        "query": town.get("query", ""),
+        "query_id": town.get("query_id", ""),
+        "query_index": int(town.get("query_index") or 1),
+        "town_index": int(town.get("town_index") or 1),
         "status": status,
         "message": town.get("message", ""),
         "scraped": scraped,
@@ -191,6 +230,11 @@ def public_job(job_id: str, job: dict[str, Any]) -> dict[str, Any]:
         "error": job.get("error", ""),
         "current_town": job.get("current_town", ""),
         "current_town_index": int(job.get("current_town_index") or 0),
+        "current_query": job.get("current_query", ""),
+        "current_query_index": int(job.get("current_query_index") or 0),
+        "total_queries": int(job.get("total_queries") or 1),
+        "completed_queries": int(job.get("completed_queries") or 0),
+        "failed_queries": int(job.get("failed_queries") or 0),
         "total_towns": int(job.get("total_towns") or len(towns)),
         "completed_towns": int(job.get("completed_towns") or 0),
         "failed_towns": int(job.get("failed_towns") or 0),
@@ -205,6 +249,28 @@ def recompute_job_counts(job: dict[str, Any]) -> None:
     job["collected"] = sum(int(town.get("collected") or town.get("scraped") or 0) for town in towns)
     job["completed_towns"] = sum(1 for town in towns if town.get("status") == "completed")
     job["failed_towns"] = sum(1 for town in towns if town.get("status") == "failed")
+
+    queries: dict[str, dict[str, int]] = {}
+    for town in towns:
+        query_id = str(town.get("query_id") or "")
+        query_counts = queries.setdefault(query_id, {"total": 0, "completed": 0, "failed": 0})
+        query_counts["total"] += 1
+        if town.get("status") == "completed":
+            query_counts["completed"] += 1
+        elif town.get("status") == "failed":
+            query_counts["failed"] += 1
+
+    completed_queries = 0
+    failed_queries = 0
+    for counts in queries.values():
+        total_towns = counts["total"]
+        finished_towns = counts["completed"] + counts["failed"]
+        if total_towns and finished_towns == total_towns:
+            completed_queries += 1
+            if counts["completed"] == 0 and counts["failed"] > 0:
+                failed_queries += 1
+    job["completed_queries"] = completed_queries
+    job["failed_queries"] = failed_queries
 
 
 def update_job_state(
@@ -264,145 +330,281 @@ def cleanup_old_jobs() -> None:
             del JOBS[job_id]
 
 
-def run_scrape_job(job_id: str, targets: list[dict[str, str]], base_config: ScrapeConfig) -> None:
+def scrape_target_town(
+    job_id: str,
+    target: dict[str, Any],
+    base_config: ScrapeConfig,
+    total_queries: int,
+    total_query_towns: int,
+    global_target_index: int,
+) -> None:
+    town_id = target["id"]
+    town_name = str(target["name"])
+    query_name = str(target.get("query") or "")
+    query_index = int(target.get("query_index") or 1)
+    town_index = int(target.get("town_index") or 1)
+    rows: list[dict[str, str | int]] = []
+    collected_count = 0
+
+    def on_progress(event: dict[str, Any]) -> None:
+        nonlocal collected_count
+        clean_event = {key: value for key, value in event.items() if value is not None}
+        if "collected" in clean_event:
+            collected_count = max(collected_count, int(clean_event.get("collected") or 0))
+            clean_event["collected"] = collected_count
+        town_message = str(clean_event.get("message") or f"Scraping {town_name}.")
+        town_status = str(clean_event.get("status") or "running")
+        payload = update_job_state(
+            job_id,
+            {
+                "status": town_status if town_status in ACTIVE_STATUSES else "running",
+                "message": (
+                    f"Job {query_index} of {total_queries} ({query_name}) - "
+                    f"{town_name}: {town_message}"
+                ),
+                "current_query": query_name,
+                "current_query_index": query_index,
+                "current_town": town_name,
+                "current_town_index": global_target_index,
+                "batch_start": clean_event.get("batch_start"),
+                "batch_end": clean_event.get("batch_end"),
+            },
+            town_id,
+            clean_event | {"status": town_status, "message": town_message},
+        )
+        emit_job_progress(job_id, payload)
+
+    payload = update_job_state(
+        job_id,
+        {
+            "status": "running",
+            "message": (
+                f"Starting job {query_index} of {total_queries} ({query_name}) - "
+                f"town {town_index} of {total_query_towns}: {town_name}."
+            ),
+            "current_query": query_name,
+            "current_query_index": query_index,
+            "current_town": town_name,
+            "current_town_index": global_target_index,
+            "error": "",
+        },
+        town_id,
+        {
+            "status": "running",
+            "message": "Starting scrape.",
+            "error": "",
+            "scraped": 0,
+            "collected": 0,
+            "rows": [],
+        },
+    )
+    emit_job_progress(job_id, payload)
+
+    config = replace(base_config, progress_callback=on_progress)
     try:
-        for index, target in enumerate(targets, start=1):
-            town_id = target["id"]
-            town_name = target["name"]
-            rows: list[dict[str, str | int]] = []
-            collected_count = 0
-
-            def on_progress(event: dict[str, Any]) -> None:
-                nonlocal collected_count
-                clean_event = {key: value for key, value in event.items() if value is not None}
-                if "collected" in clean_event:
-                    collected_count = max(collected_count, int(clean_event.get("collected") or 0))
-                    clean_event["collected"] = collected_count
-                town_message = str(clean_event.get("message") or f"Scraping {town_name}.")
-                town_status = str(clean_event.get("status") or "running")
-                payload = update_job_state(
-                    job_id,
-                    {
-                        "status": town_status if town_status in ACTIVE_STATUSES else "running",
-                        "message": f"{town_name}: {town_message}",
-                        "current_town": town_name,
-                        "current_town_index": index,
-                        "batch_start": clean_event.get("batch_start"),
-                        "batch_end": clean_event.get("batch_end"),
-                    },
-                    town_id,
-                    clean_event | {"status": town_status, "message": town_message},
-                )
-                emit_job_progress(job_id, payload)
-
+        scraper = GoogleMapsScraper(config)
+        for row in scraper.iter_scrape(target["search_text"]):
+            rows.append(asdict(row))
             payload = update_job_state(
                 job_id,
                 {
-                    "status": "running",
-                    "message": f"Starting {town_name} ({index} of {len(targets)}).",
+                    "status": "scraping",
+                    "message": (
+                        f"Job {query_index} of {total_queries} ({query_name}) - "
+                        f"{town_name}: Scraped {len(rows)} of {config.max_results} requested result(s)."
+                    ),
+                    "current_query": query_name,
+                    "current_query_index": query_index,
                     "current_town": town_name,
-                    "current_town_index": index,
-                    "error": "",
+                    "current_town_index": global_target_index,
                 },
                 town_id,
                 {
-                    "status": "running",
-                    "message": "Starting scrape.",
-                    "error": "",
-                    "scraped": 0,
-                    "collected": 0,
-                    "rows": [],
+                    "status": "scraping",
+                    "message": f"Scraped {len(rows)} of {config.max_results} requested result(s).",
+                    "scraped": len(rows),
+                    "collected": max(collected_count, len(rows)),
+                    "rows": rows.copy(),
                 },
             )
             emit_job_progress(job_id, payload)
 
-            config = replace(base_config, progress_callback=on_progress)
-            try:
-                scraper = GoogleMapsScraper(config)
-                for row in scraper.iter_scrape(target["search_text"]):
-                    rows.append(asdict(row))
-                    payload = update_job_state(
-                        job_id,
-                        {
-                            "status": "scraping",
-                            "message": (
-                                f"{town_name}: Scraped {len(rows)} of "
-                                f"{config.max_results} requested result(s)."
-                            ),
-                            "current_town": town_name,
-                            "current_town_index": index,
-                        },
-                        town_id,
-                        {
-                            "status": "scraping",
-                            "message": f"Scraped {len(rows)} of {config.max_results} requested result(s).",
-                            "scraped": len(rows),
-                            "collected": max(collected_count, len(rows)),
-                            "rows": rows.copy(),
-                        },
-                    )
-                    emit_job_progress(job_id, payload)
+        output_path = save_target_csv(target, rows)
+        payload = update_job_state(
+            job_id,
+            {
+                "status": "running",
+                "message": (
+                    f"Job {query_index} of {total_queries} ({query_name}) - "
+                    f"{town_name}: Saved {len(rows)} result(s) to {output_path}."
+                ),
+                "current_query": query_name,
+                "current_query_index": query_index,
+                "current_town": town_name,
+                "current_town_index": global_target_index,
+            },
+            town_id,
+            {
+                "status": "completed",
+                "message": f"Saved {len(rows)} result(s) to {output_path}.",
+                "scraped": len(rows),
+                "collected": max(collected_count, len(rows)),
+                "rows": rows.copy(),
+                "local_path": str(output_path),
+            },
+        )
+        emit_job_progress(job_id, payload)
+        emit_town_event("town_completed", job_id, town_id)
+    except ScrapeError as exc:
+        payload = update_job_state(
+            job_id,
+            {
+                "status": "running",
+                "message": (
+                    f"Job {query_index} of {total_queries} ({query_name}) - "
+                    f"{town_name}: {exc}"
+                ),
+                "current_query": query_name,
+                "current_query_index": query_index,
+                "current_town": town_name,
+                "current_town_index": global_target_index,
+            },
+            town_id,
+            {
+                "status": "failed",
+                "message": str(exc),
+                "error": str(exc),
+                "rows": rows.copy(),
+            },
+        )
+        emit_job_progress(job_id, payload)
+        emit_town_event("town_failed", job_id, town_id)
+    except Exception as exc:
+        message = f"Scraping failed: {exc}"
+        payload = update_job_state(
+            job_id,
+            {
+                "status": "running",
+                "message": (
+                    f"Job {query_index} of {total_queries} ({query_name}) - "
+                    f"{town_name}: {message}"
+                ),
+                "current_query": query_name,
+                "current_query_index": query_index,
+                "current_town": town_name,
+                "current_town_index": global_target_index,
+            },
+            town_id,
+            {
+                "status": "failed",
+                "message": message,
+                "error": message,
+                "rows": rows.copy(),
+            },
+        )
+        emit_job_progress(job_id, payload)
+        emit_town_event("town_failed", job_id, town_id)
 
-                output_path = save_target_csv(target, rows)
-                payload = update_job_state(
-                    job_id,
-                    {
-                        "status": "running",
-                        "message": f"{town_name}: Saved {len(rows)} result(s) to {output_path}.",
-                        "current_town": town_name,
-                        "current_town_index": index,
-                    },
-                    town_id,
-                    {
-                        "status": "completed",
-                        "message": f"Saved {len(rows)} result(s) to {output_path}.",
-                        "scraped": len(rows),
-                        "collected": max(collected_count, len(rows)),
-                        "rows": rows.copy(),
-                        "local_path": str(output_path),
-                    },
-                )
-                emit_job_progress(job_id, payload)
-                emit_town_event("town_completed", job_id, town_id)
-            except ScrapeError as exc:
-                payload = update_job_state(
-                    job_id,
-                    {
-                        "status": "running",
-                        "message": f"{town_name}: {exc}",
-                        "current_town": town_name,
-                        "current_town_index": index,
-                    },
-                    town_id,
-                    {
-                        "status": "failed",
-                        "message": str(exc),
-                        "error": str(exc),
-                        "rows": rows.copy(),
-                    },
-                )
-                emit_job_progress(job_id, payload)
-                emit_town_event("town_failed", job_id, town_id)
-            except Exception as exc:
-                message = f"Scraping failed: {exc}"
-                payload = update_job_state(
-                    job_id,
-                    {
-                        "status": "running",
-                        "message": f"{town_name}: {message}",
-                        "current_town": town_name,
-                        "current_town_index": index,
-                    },
-                    town_id,
-                    {
-                        "status": "failed",
-                        "message": message,
-                        "error": message,
-                        "rows": rows.copy(),
-                    },
-                )
-                emit_job_progress(job_id, payload)
-                emit_town_event("town_failed", job_id, town_id)
+
+def run_scrape_job(
+    job_id: str,
+    targets: list[dict[str, Any]],
+    base_config: ScrapeConfig,
+    parallel_towns: int = DEFAULT_PARALLEL_TOWNS,
+) -> None:
+    try:
+        query_groups: dict[str, dict[str, Any]] = {}
+        total_queries = 0
+        for index, target in enumerate(targets, start=1):
+            query_id = str(target.get("query_id") or "")
+            query_index = int(target.get("query_index") or 1)
+            query_name = str(target.get("query") or "")
+            total_queries = max(total_queries, query_index)
+            group = query_groups.setdefault(
+                query_id,
+                {
+                    "query_index": query_index,
+                    "query_name": query_name,
+                    "targets": [],
+                },
+            )
+            group["targets"].append((index, target))
+
+        ordered_groups = sorted(query_groups.values(), key=lambda group: int(group.get("query_index") or 1))
+        total_queries = total_queries or len(ordered_groups) or 1
+        requested_parallel = max(1, int(parallel_towns or DEFAULT_PARALLEL_TOWNS))
+
+        for group in ordered_groups:
+            query_index = int(group.get("query_index") or 1)
+            query_name = str(group.get("query_name") or "")
+            grouped_targets: list[tuple[int, dict[str, Any]]] = list(group.get("targets", []))
+            total_query_towns = len(grouped_targets)
+            if total_query_towns == 0:
+                continue
+
+            query_parallel = min(requested_parallel, total_query_towns)
+            payload = update_job_state(
+                job_id,
+                {
+                    "status": "running",
+                    "message": (
+                        f"Running job {query_index} of {total_queries} ({query_name}) "
+                        f"across {total_query_towns} town(s) with parallelism {query_parallel}."
+                    ),
+                    "current_query": query_name,
+                    "current_query_index": query_index,
+                    "current_town": "",
+                    "error": "",
+                },
+            )
+            emit_job_progress(job_id, payload)
+
+            with ThreadPoolExecutor(max_workers=query_parallel) as executor:
+                future_map = {
+                    executor.submit(
+                        scrape_target_town,
+                        job_id,
+                        target,
+                        base_config,
+                        total_queries,
+                        total_query_towns,
+                        global_target_index,
+                    ): target
+                    for global_target_index, target in grouped_targets
+                }
+                for future in as_completed(future_map):
+                    target = future_map[future]
+                    try:
+                        future.result()
+                    except Exception as exc:
+                        town_name = str(target.get("name") or "Town")
+                        query_name = str(target.get("query") or "")
+                        query_index = int(target.get("query_index") or 1)
+                        town_id = str(target.get("id") or "")
+                        message = f"Unexpected worker failure: {exc}"
+                        payload = update_job_state(
+                            job_id,
+                            {
+                                "status": "running",
+                                "message": (
+                                    f"Job {query_index} of {total_queries} ({query_name}) - "
+                                    f"{town_name}: {message}"
+                                ),
+                                "current_query": query_name,
+                                "current_query_index": query_index,
+                                "current_town": town_name,
+                                "error": "",
+                            },
+                            town_id,
+                            {
+                                "status": "failed",
+                                "message": message,
+                                "error": message,
+                            },
+                        )
+                        emit_job_progress(job_id, payload)
+                        if town_id:
+                            emit_town_event("town_failed", job_id, town_id)
 
         snapshot = snapshot_public_job(job_id) or {}
         completed_towns = int(snapshot.get("completed_towns") or 0)
@@ -423,6 +625,8 @@ def run_scrape_job(job_id: str, targets: list[dict[str, str]], base_config: Scra
             {
                 "status": final_status,
                 "message": final_message,
+                "current_query": "",
+                "current_query_index": total_queries,
                 "current_town": "",
                 "current_town_index": total_towns,
                 "error": final_message if final_status == "failed" else "",
@@ -501,9 +705,11 @@ def scrape_start() -> Response:
         targets, config = scrape_request_config()
     except ValueError as exc:
         return jsonify({"error": str(exc)}), 400
+    parallel_towns = request_parallel_towns()
 
     job_id = uuid4().hex
     now = time.time()
+    total_queries = len({str(target.get("query_id") or "") for target in targets})
     towns = [
         {
             **target,
@@ -522,22 +728,28 @@ def scrape_start() -> Response:
         JOBS[job_id] = {
             "id": job_id,
             "status": "queued",
-            "message": f"Queued {len(targets)} town scrape(s).",
+            "message": f"Queued {total_queries} query job(s) across {len(targets)} town scrape(s).",
             "towns": towns,
             "scraped": 0,
             "collected": 0,
             "total": config.max_results * len(targets),
+            "total_queries": total_queries,
+            "completed_queries": 0,
+            "failed_queries": 0,
+            "current_query": "",
+            "current_query_index": 0,
             "total_towns": len(targets),
             "completed_towns": 0,
             "failed_towns": 0,
             "current_town": "",
             "current_town_index": 0,
             "batch_size": config.batch_size,
+            "parallel_towns": parallel_towns,
             "created_at": now,
             "updated_at": now,
         }
 
-    socketio.start_background_task(run_scrape_job, job_id, targets, config)
+    socketio.start_background_task(run_scrape_job, job_id, targets, config, parallel_towns)
 
     return jsonify(
         {
